@@ -39,7 +39,7 @@
 
     - name: NF1
       types:
-        - p.K1423E
+        - p.K1444E
         - p.R1276P
 
     - name: PIK3CA

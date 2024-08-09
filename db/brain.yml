@@ -35,7 +35,7 @@
 
     - name: NF1
       types:
-        - p.K1423E
+        - p.K1444E
         - p.R1276P
 
     - name: EGFR
@@ -65,7 +65,7 @@
 
     - name: NF1
       types:
-        - p.K1423E
+        - p.K1444E
         - p.R1276P
 
     - name: EGFR
@@ -157,7 +157,7 @@
   optional-markers:
     - name: NF1
       types:
-        - p.K1423E
+        - p.K1444E
         - p.R1276P
 
     - name: RB1
@@ -192,7 +192,7 @@
   optional-markers:
     - name: NF1
       types:
-        - p.K1423E
+        - p.K1444E
         - p.R1276P
 
     - name: RB1
@@ -264,7 +264,7 @@
 
     - name: NF1
       types:
-        - p.K1423E
+        - p.K1444E
         - p.R1276P
 
     - name: EGFR
@@ -302,7 +302,7 @@
 
     - name: NF1
       types:
-        - p.K1423E
+        - p.K1444E
         - p.R1276P
 
     - name: EGFR

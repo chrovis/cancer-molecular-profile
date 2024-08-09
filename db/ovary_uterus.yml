@@ -175,10 +175,35 @@
         - loss
 
 # High grade
+
 - type: Uterus
   subtype: Endometrial Stromal Sarcoma
   required-markers:
-    - name: YWHAE-NUTM2
+    - name: YWHAE-NUTM2A
+      types:
+        - fusion
+
+  optional-markers:
+    - name: 16q
+      types:
+        - loss
+
+    - name: CDH1
+      types:
+        - loss
+
+    - name: TP53
+      types:
+        - loss
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Uterus
+  subtype: Endometrial Stromal Sarcoma
+  required-markers:
+    - name: YWHAE-NUTM2B
       types:
         - fusion
 

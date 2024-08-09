@@ -1,0 +1,216 @@
+---
+
+# Lung
+
+# PMID: 25079552
+# PMID: 25079552 (Adenocarcinoma)
+# PMID: 22960745 (Squamous cell carcinoma)
+
+- type: Lung
+  subtype: Lung Adenocarcinoma
+  required-markers:
+    - name: EGFR
+      types:
+        - p.L858R
+        - exon 19 deletion
+        - exon 20 insertion
+
+    - name: STK11
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: KEAP1
+      types:
+        - truncation
+
+    - name: SETD2
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Lung
+  subtype: Lung Adenocarcinoma
+  required-markers:
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: STK11
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: KEAP1
+      types:
+        - truncation
+
+    - name: SETD2
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Lung
+  subtype: Lung Adenocarcinoma
+  required-markers:
+    - name: MET
+      types:
+        - exon 14 skipping
+
+    - name: STK11
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: KEAP1
+      types:
+        - truncation
+
+    - name: SETD2
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Lung
+  subtype: Lung Adenocarcinoma
+  required-markers:
+    - name: EML4-ALK
+      types:
+        - fusion
+
+    - name: STK11
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: KEAP1
+      types:
+        - truncation
+
+    - name: SETD2
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Lung
+  subtype: Lung Adenocarcinoma
+  required-markers:
+    - name: KIF5B-RET
+      types:
+        - fusion
+
+    - name: STK11
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: KEAP1
+      types:
+        - truncation
+
+    - name: SETD2
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Lung
+  subtype: Lung Adenocarcinoma
+  required-markers:
+    - name: GOPC-ROS1
+      types:
+        - fusion
+
+    - name: STK11
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: KEAP1
+      types:
+        - truncation
+
+    - name: SETD2
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Lung
+  subtype: Squamous Cell Carcinoma
+  required-markers:
+    - name: NFE2L2
+      types:
+        - p.R34G
+        - p.R34L
+        - p.E79K
+        - p.E79Q
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: KEAP1
+      types:
+        - truncation
+
+- type: Lung
+  subtype: Small Cell Lung Cancer
+  required-markers:
+    - name: RB1
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation

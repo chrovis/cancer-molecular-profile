@@ -1,0 +1,250 @@
+---
+
+# Biliary Tract
+
+# Cholangiocarcinoma
+# PMID: 28297679
+# PMID: 33535978
+# PMID: 37337460
+
+- type: Biliary Tract
+  subtype: Cholangiocarcinoma
+  required-markers:
+    - name: IDH1
+      types:
+        - p.R132C/G/H/L/S
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: BAP1
+      types:
+        - loss
+
+- type: Biliary Tract
+  subtype: Cholangiocarcinoma
+  required-markers:
+    - name: IDH2
+      types:
+        - p.R140Q/W
+        - p.R172G/K/M/S/W
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: BAP1
+      types:
+        - loss
+
+- type: Biliary Tract
+  subtype: Cholangiocarcinoma
+  required-markers:
+    - name: ERBB2
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Biliary Tract
+  subtype: Cholangiocarcinoma
+  required-markers:
+    - name: FGFR2-TACC3
+      types:
+        - fusion
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+    - name: ARID1A
+      types:
+        - truncation
+
+# Gallbladder
+# PMID: 36228155
+
+- type: Biliary Tract
+  subtype: Gallbladder Cancer
+  required-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F/Y
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: SMAD4
+      types:
+        - loss
+        - truncation
+
+  optional-markers:
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+
+- type: Biliary Tract
+  subtype: Gallbladder Cancer
+  required-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F/Y
+
+    - name: MDM2
+      types:
+        - amplification
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: SMAD4
+      types:
+        - loss
+        - truncation
+
+  optional-markers:
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+
+- type: Biliary Tract
+  subtype: Gallbladder Cancer
+  required-markers:
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: SMAD4
+      types:
+        - loss
+        - truncation
+
+  optional-markers:
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R

@@ -1,0 +1,69 @@
+---
+
+# Thyroid
+
+# PMID: 27871285 (A review article for thyroid cancers)
+
+- type: Thyroid
+  subtype: Papillary Carcinoma
+  required-markers:
+    - name: BRAF
+      types:
+        - p.V600E
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+- type: Thyroid
+  subtype: Papillary Carcinoma
+  required-markers:
+    - name: CCDC6-RET
+      types:
+        - fusion
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+- type: Thyroid
+  subtype: Follicular Carcinoma
+  required-markers:
+    - name: NRAS
+      types:
+        - p.Q61R
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation
+
+- type: Thyroid
+  subtype: Anaplastic Carcinoma
+  required-markers:
+    - name: BRAF
+      types:
+        - p.V600E
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: PTEN
+      types:
+        - truncation

@@ -1,0 +1,19 @@
+---
+
+# Skin
+
+# PMID: 26282084
+
+- type: Skin
+  subtype: Melanoma
+  required-markers:
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+- type: Skin
+  subtype: Melanoma
+  required-markers:
+    - name: KIT
+      types:
+        - p.K642E

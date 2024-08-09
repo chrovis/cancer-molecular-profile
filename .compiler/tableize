@@ -1,0 +1,75 @@
+#!/usr/bin/env bb
+
+(ns tableize-cases
+  (:require [clj-yaml.core :as yaml]
+            [clojure.string :as string]
+            [clojure.data.csv :as csv]
+            [clojure.java.io :as io]))
+
+(def header ["Tissue" "Subtype" "Representative Gene Variants or Biomarkers" "Other Gene Variants or Biomarkers"])
+
+(defn format-string
+  [s]
+  (some-> s
+          string/trim
+          (string/replace #"\n" "<br/>")))
+
+(defn- load-yaml
+  [f]
+  (yaml/parse-string (slurp f)))
+
+(def all-cases
+  (let [files (map #(.getName %) (.listFiles (io/file "db")))]
+    (mapcat #(load-yaml (io/file "db" %)) files)))
+
+(defn serialize-markers
+  [mrkrs]
+  (string/join ", "
+               (map (fn [m]
+                      (str (:name m) (when (:types m)
+                                       (str " " (string/join " " (:types m))))))
+                    mrkrs)))
+
+(def all-cases-table
+  (sort-by (juxt first second)
+           (map (fn [c]
+                  (map format-string [(:type c)
+                                      (:subtype c)
+                                      (serialize-markers (:required-markers c))
+                                      (serialize-markers (:optional-markers c))]))
+                all-cases)))
+
+(defn make-row
+  [xs]
+  (str "| " (string/join " | " xs) " |"))
+
+(defn tableize
+  []
+  (string/join "\n"
+               (concat [(make-row header)
+                        (make-row (repeat (count header) "---"))]
+                       (map make-row all-cases-table))))
+
+(defn total
+  []
+  (format "Total: %d cases" (count all-cases-table)))
+
+(defn counts-by-tissue-type
+  []
+  (string/join "\n"
+               (->> all-cases-table
+                    (group-by first)
+                    (map (fn [[k v]] [k (count v)]))
+                    (sort-by first)
+                    (map (fn [[k n]] (format "- %s: %d" k n))))))
+
+;; update table in readme
+(def doc-template (slurp ".compiler/readme_template.md"))
+(spit "README.md" (-> doc-template
+                      (string/replace #"%%TOTAL%%" (total))
+                      (string/replace #"%%TABLE%%" (tableize))
+                      (string/replace #"%%COUNTS_BY_TISSUE_TYPE%%" (counts-by-tissue-type))))
+
+;; generate CSV table
+(with-open [wtr (io/writer "cancer_molecular_profile.csv")]
+  (csv/write-csv wtr all-cases-table))

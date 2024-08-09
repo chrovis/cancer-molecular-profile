@@ -1,0 +1,228 @@
+---
+
+# prostate
+
+# PMID: 37236698
+# PMID: 26074382
+
+- type: Prostate
+  subtype: Adenocarcinoma
+  required-markers:
+    - name: AR
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation
+
+  optional-markers:
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: MYC
+      types:
+        - amplification
+
+    - name: RAD51B
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Prostate
+  subtype: Adenocarcinoma
+  required-markers:
+    - name: ATM
+      types:
+        - truncation
+
+  optional-markers:
+    - name: HRD-High
+
+    - name: AR
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: MYC
+      types:
+        - amplification
+
+    - name: RAD51B
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Prostate
+  subtype: Adenocarcinoma
+  required-markers:
+    - name: BRCA1
+      types:
+        - truncation
+
+  optional-markers:
+    - name: HRD-High
+
+    - name: AR
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: MYC
+      types:
+        - amplification
+
+    - name: RAD51B
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Prostate
+  subtype: Adenocarcinoma
+  required-markers:
+    - name: BRCA2
+      types:
+        - truncation
+
+  optional-markers:
+    - name: HRD-High
+
+    - name: AR
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: MYC
+      types:
+        - amplification
+
+    - name: RAD51B
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Prostate
+  subtype: Adenocarcinoma
+  required-markers:
+    - name: CDK12
+      types:
+        - truncation
+
+  optional-markers:
+    - name: HRD-High
+
+    - name: AR
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: MYC
+      types:
+        - amplification
+
+    - name: RAD51B
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Prostate
+  subtype: Adenocarcinoma
+  required-markers:
+    - name: TMPRSS2-ERG
+      types:
+        - fusion
+
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation
+
+  optional-markers:
+    - name: AR
+      types:
+        - amplification
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: MYC
+      types:
+        - amplification
+
+    - name: RB1
+      types:
+        - loss

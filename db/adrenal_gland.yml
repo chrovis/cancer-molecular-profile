@@ -1,0 +1,122 @@
+---
+
+# adrenal gland
+
+# Pheochromocytoma
+# PMID: 34282751
+
+# 遺伝性腫瘍
+# SDHB, RET, NF1, VHL
+
+# 神経線維腫症Ⅰ型 (NF1)、多発性内分泌腫瘍症2型(RET)、VHL病
+# https://www.nanbyou.or.jp/entry/3992
+# https://www.nanbyou.or.jp/entry/3308
+# https://www.nanbyou.or.jp/entry/689
+
+# SDH
+# https://www.jstage.jst.go.jp/article/naika/97/10/97_2558/_pdf
+
+- type: Adrenal Gland
+  subtype: Pheochromocytoma
+  required-markers:
+    - name: SDHA
+      types:
+        - loss  # germline
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+- type: Adrenal Gland
+  subtype: Pheochromocytoma
+  required-markers:
+    - name: SDHB
+      types:
+        - loss  # germline
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+- type: Adrenal Gland
+  subtype: Pheochromocytoma
+  required-markers:
+    - name: SDHC
+      types:
+        - loss  # germline
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+- type: Adrenal Gland
+  subtype: Pheochromocytoma
+  required-markers:
+    - name: SDHD
+      types:
+        - loss  # germline
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+- type: Adrenal Gland
+  subtype: Pheochromocytoma
+  required-markers:
+    - name: RET
+      types:
+        - p.C634R
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+# RET
+# PMID: 8918855
+# PMID: 17167516
+# Multiple Endocrine Neoplasia Type 2: https://www.ncbi.nlm.nih.gov/books/NBK1257/

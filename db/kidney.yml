@@ -1,0 +1,37 @@
+---
+
+# kidney
+
+# PMID: 23797736
+# PMID: 2163761
+# PMID: 9090524
+
+- type: Kidney
+  subtype: Renal Cell Carcinoma
+  required-markers:
+    - name: VHL
+      types:
+        - truncation
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+- type: Kidney
+  subtype: Wilms Tumor
+  required-markers:
+    - name: WT1
+      types:
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: CTNNB1
+      types:
+        - p.S33A/C/F/Y
+        - p.S37A/F/Y

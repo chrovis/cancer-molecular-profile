@@ -1,0 +1,25 @@
+---
+
+# Thymus
+
+# PMID: 37703595
+
+- type: Thymus
+  subtype: Thymic carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+  optional-markers:
+    - name: KIT
+      types:
+        - p.N822K

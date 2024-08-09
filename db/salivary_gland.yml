@@ -1,0 +1,64 @@
+---
+
+# Salivary Gland
+
+# PMID: 33526219
+# PMID: 37357968
+
+- type: Salivary Gland
+  subtype: Adenoid Cystic Carcinoma
+  required-markers:
+    - name: MYB-NFIB
+      types:
+        - fusion
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: NOTCH1
+      types:
+        - deletion
+
+- type: Salivary Gland
+  subtype: Salivary Duct Carcinoma
+  required-markers:
+    - name: ERBB2
+      types:
+        - amplification
+
+    - name: CDK12
+      types:
+        - truncation
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: NF1
+      types:
+        - p.K1423E
+        - p.R1276P
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: CDKN2A
+      types:
+        - loss
+
+- type: Salivary Gland
+  subtype: Mucoepidermoid Carcinoma
+  required-markers:
+    - name: HRAS
+      types:
+        - p.G12V
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation

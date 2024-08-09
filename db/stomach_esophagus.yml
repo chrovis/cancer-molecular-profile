@@ -1,0 +1,245 @@
+---
+
+# Stomach
+
+# PMID: 25079317
+# PMID: 33086305
+
+## EBV type by TCGA
+
+- type: Stomach
+  subtype: Intestinal Type Stomach Adenocarcinoma
+  required-markers:
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: CD274
+      types:
+        - amplification
+
+    - name: ERBB2
+      types:
+        - amplification
+
+  optional-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+- type: Stomach
+  subtype: Intestinal Type Stomach Adenocarcinoma
+  required-markers:
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: CD274
+      types:
+        - amplification
+
+    - name: EGFR
+      types:
+        - amplification
+
+  optional-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+## MSI type by TCGA
+
+- type: Stomach
+  subtype: Intestinal Type Stomach Adenocarcinoma
+  required-markers:
+    - name: MLH1
+      types:
+        - truncation
+
+    - name: TMB-High
+    - name: MSI-High
+
+  optional-markers:
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: RNF43
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+## GS type by TCGA
+
+- type: Stomach
+  subtype: Diffuse Type Stomach Adenocarcinoma
+  required-markers:
+    - name: CDH1
+      types:
+        - truncation
+
+    - name: RHOA
+      types:
+        - p.G17A/E/V
+
+  optional-markers:
+    - name: CLDN18-ARHGAP26
+      types:
+        - fusion
+
+# CIN type by TCGA
+
+- type: Stomach
+  subtype: Intestinal Type Stomach Adenocarcinoma
+  required-markers:
+    - name: KRAS
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: CCND1
+      types:
+        - amplification
+
+- type: Stomach
+  subtype: Intestinal Type Stomach Adenocarcinoma
+  required-markers:
+    - name: ERBB2
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: CCND1
+      types:
+        - amplification
+
+- type: Stomach
+  subtype: Intestinal Type Stomach Adenocarcinoma
+  required-markers:
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: CCND1
+      types:
+        - amplification
+
+- type: Stomach
+  subtype: Intestinal Type Stomach Adenocarcinoma
+  required-markers:
+    - name: PIK3CA
+      types:
+        - amplification
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: CCND1
+      types:
+        - amplification
+
+# Esophagus
+# cf. https://www.nature.com/articles/s41598-021-00208-7
+
+- type: Esophagus
+  subtype: Squamous Cell Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+  optional-markers:
+    - name: NFE2L2
+      types:
+        - p.R34G/L
+        - p.E79K/Q
+
+    - name: PTEN
+      types:
+        - truncation
+
+- type: Esophagus
+  subtype: Squamous Cell Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+  optional-markers:
+    - name: NOTCH1
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation
+
+- type: Esophagus
+  subtype: Squamous Cell Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation

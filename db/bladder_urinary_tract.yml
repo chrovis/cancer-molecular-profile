@@ -1,0 +1,111 @@
+---
+
+# Bladder
+
+# PMID: 24476821
+# PMID: 32861617
+# PMID: 37195586
+
+- type: Bladder
+  subtype: Urothelial Carcinoma
+  required-markers:
+    - name: FGFR3
+      types:
+        - p.S249C
+        - p.R248C
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: TERT
+      types:
+        - c.−124C>T
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - truncation
+
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+- type: Bladder
+  subtype: Urothelial Carcinoma
+  required-markers:
+    - name: FGFR3-TACC3
+      types:
+        - fusion
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: TERT
+      types:
+        - c.−124C>T
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - truncation
+
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+- type: Bladder
+  subtype: Urothelial Carcinoma
+  required-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: TERT
+      types:
+        - c.−124C>T
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - truncation
+
+    - name: BRAF
+      types:
+        - p.V600E/K

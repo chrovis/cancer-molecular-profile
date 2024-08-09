@@ -1,0 +1,200 @@
+---
+
+# Ovary
+# PMID: 21720365
+
+- type: Ovary
+  subtype: High-Grade Serous Ovarian Cancer
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: HRD-High
+
+  optional-markers:
+    - name: BRCA1
+      types:
+        - truncation
+
+- type: Ovary
+  subtype: High-Grade Serous Ovarian Cancer
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: HRD-High
+
+  optional-markers:
+    - name: BRCA2
+      types:
+        - truncation
+
+# cf. https://www.sciencedirect.com/science/article/abs/pii/S0090825822018509?dgcid=rss_sd_all
+
+- type: Ovary
+  subtype: Low-Grade Serous Ovarian Cancer
+  required-markers:
+    - name: KRAS
+      types:
+        - p.G12X
+
+- type: Ovary
+  subtype: Low-Grade Serous Ovarian Cancer
+  required-markers:
+    - name: NRAS
+      types:
+        - p.G12X
+
+- type: Ovary
+  subtype: Low-Grade Serous Ovarian Cancer
+  required-markers:
+    - name: NF1
+      types:
+        - truncation
+
+- type: Ovary
+  subtype: Low-Grade Serous Ovarian Cancer
+  required-markers:
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+- type: Ovary
+  subtype: Clear Cell Ovarian Cancer
+  required-markers:
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+# cf. https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9427676/
+
+# Uterus
+# PMID: 23636398
+
+- type: Uterus
+  subtype: Uterine Endometrioid Carcinoma
+  required-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: CTNNB1
+      types:
+        - p.S33A/C/F/Y
+        - p.S37A/F/Y
+
+- type: Uterus
+  subtype: Uterine Endometrioid Carcinoma
+  required-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: KRAS
+      types:
+        - p.G12X
+
+- type: Uterus
+  subtype: Uterine Endometrioid Carcinoma
+  required-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: PIK3R1
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CTNNB1
+      types:
+        - p.S33A/C/F/Y
+        - p.S37A/F/Y
+
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: PPP2R1A
+      types:
+        - truncation
+
+# Endometrial Stromal Sarcomaを追加
+# PMID: 26429873
+# PMID: 30149610
+
+# Low grade
+- type: Uterus
+  subtype: Endometrial Stromal Sarcoma
+  required-markers:
+    - name: JAZF1-SUZ12
+      types:
+        - fusion
+
+  optional-markers:
+    - name: PMS2
+      types:
+        - loss
+
+    - name: PTEN
+      types:
+        - loss
+
+# High grade
+- type: Uterus
+  subtype: Endometrial Stromal Sarcoma
+  required-markers:
+    - name: YWHAE-NUTM2
+      types:
+        - fusion
+
+  optional-markers:
+    - name: 16q
+      types:
+        - loss
+
+    - name: CDH1
+      types:
+        - loss
+
+    - name: TP53
+      types:
+        - loss
+
+    - name: RB1
+      types:
+        - loss

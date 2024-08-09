@@ -1,0 +1,276 @@
+---
+
+# Breast
+
+# PMID: 23000897
+# PMID: 26451490
+
+# ER/PGR
+
+- type: Breast
+  subtype: Breast Invasive Ductal Carcinoma
+  required-markers:
+    - name: ESR1
+      types:
+        - p.Y537S
+        - p.D538G
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: MAP3K1
+      types:
+        - truncation
+
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KMT2C
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: RB1
+      types:
+        - loss
+
+# HER2
+
+- type: Breast
+  subtype: Breast Invasive Ductal Carcinoma
+  required-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: FGFR1
+      types:
+        - amplification
+
+    - name: MAP3K1
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KMT2C
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: RB1
+      types:
+        - loss
+
+# Triple Negative
+
+- type: Breast
+  subtype: Breast Invasive Ductal Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATM
+      types:
+        - truncation
+
+  optional-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KMT2C
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Breast
+  subtype: Breast Invasive Ductal Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: CHEK2
+      types:
+        - truncation
+
+    - name: HRD-High
+
+  optional-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KMT2C
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Breast
+  subtype: Breast Invasive Ductal Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: BRCA1
+      types:
+        - truncation
+
+    - name: HRD-High
+
+  optional-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KMT2C
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Breast
+  subtype: Breast Invasive Ductal Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: BRCA2
+      types:
+        - truncation
+
+    - name: HRD-High
+
+  optional-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KMT2C
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+- type: Breast
+  subtype: Breast Invasive Ductal Carcinoma
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: PALB2
+      types:
+        - truncation
+
+    - name: HRD-High
+
+  optional-markers:
+    - name: ERBB2
+      types:
+        - amplification
+        - p.S310F
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: KMT2C
+      types:
+        - truncation
+
+    - name: RB1
+      types:
+        - loss
+
+# Lobular
+
+- type: Breast
+  subtype: Breast Invasive Lobular Carcinoma
+  required-markers:
+    - name: CDH1
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: RUNX1
+      types:
+        - truncation
+
+    - name: TBX3
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - loss

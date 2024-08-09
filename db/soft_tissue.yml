@@ -1,0 +1,209 @@
+---
+
+- type: Soft Tissue
+  subtype: Gastrointestinal Stromal Tumor
+  required-markers:
+    - name: KIT
+      types:
+        - p.W557_K558del
+        - p.L576P
+
+# PMID: 29636989
+
+- type: Soft Tissue
+  subtype: Dedifferentiated Liposarcoma
+  required-markers:
+    - name: MDM2
+      types:
+        - amplification
+
+    - name: CDK4
+      types:
+        - amplification
+
+# PMID: 37643281 (A review for sarcoma precision medicine)
+# PMID: 36464833
+
+# Osteosarcoma
+# PMID: 31987920
+
+- type: Bone
+  subtype: Osteosarcoma
+  required-markers:
+    - name: TP53
+      types:
+        - loss
+
+    - name: RB1
+      types:
+        - loss
+
+  optional-markers:
+    - name: BRCA1
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: MYC
+      types:
+        - amplification
+
+    - name: CCNE1
+      types:
+        - amplification
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+# Ewing sarcoma
+# PMID: 30166462
+
+- type: Soft Tissue
+  subtype: Ewing Sarcoma
+  required-markers:
+    - name: EWSR1-FLI1
+      types:
+        - fusion
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: STAG2
+      types:
+        - truncation
+
+# Leiomyosarcoma
+# PMID: 32751892
+
+- type: Soft Tissue
+  subtype: Leiomyosarcoma
+  required-markers:
+    - name: TP53
+      types:
+        - loss
+
+    - name: RB1
+      types:
+        - loss
+
+  optional-markers:
+    - name: ATRX
+      types:
+        - truncation
+
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: MAP2K4
+      types:
+        - amplification
+
+# Synovial sarcoma
+# PMID: 7539744
+
+- type: Soft Tissue
+  subtype: Synovial Sarcoma
+  required-markers:
+    - name: SS18-SSX2
+      types:
+        - fusion
+
+  optional-markers:
+    - name: CTNNB1
+      types:
+        - p.S33A/Y/C
+
+    - name: ATM
+      types:
+        - truncation
+
+# Rhabdomyosarcoma
+# PMID: 8275086
+# PMID: 24436047
+
+- type: Soft Tissue
+  subtype: Rhabdomyosarcoma
+  required-markers:
+    - name: PAX3-FOXO1
+      types:
+        - fusion
+
+  optional-markers:
+    - name: MYCN
+      types:
+        - amplification
+
+    - name: CDK4
+      types:
+        - amplification
+
+    - name: 11p15
+      types:
+        - loss
+
+- type: Soft Tissue
+  subtype: Rhabdomyosarcoma
+  required-markers:
+    - name: PAX7-FOXO1
+      types:
+        - fusion
+
+  optional-markers:
+    - name: MYCN
+      types:
+        - amplification
+
+    - name: CDK4
+      types:
+        - amplification
+
+    - name: 11p15
+      types:
+        - loss
+
+- type: Soft Tissue
+  subtype: Rhabdomyosarcoma
+  required-markers:
+    - name: NRAS
+      types:
+        - p.G12X
+
+    - name: 11p15
+      types:
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - loss
+
+- type: Soft Tissue
+  subtype: Rhabdomyosarcoma
+  required-markers:
+    - name: FGFR4
+      types:
+        - p.V550E/L/M
+
+    - name: 11p15
+      types:
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - loss

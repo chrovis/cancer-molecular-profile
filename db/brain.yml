@@ -1,0 +1,424 @@
+---
+
+# Brain
+
+# PMID: 24120142
+# PMID: 37891325
+# PMID: 29802247
+# PMID: 37524847
+# PMID: 28912153
+# PMID: 35912263
+# PMID: 29521646
+# PMID: 28726821
+
+# Adult brain tumor
+
+- type: Brain
+  subtype: Astrocytoma, IDH-mutant
+  required-markers:
+    - name: IDH1
+      types:
+        - p.R132C/G/H/L/S
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: BRAF
+      types:
+        - p.V600E
+
+    - name: NF1
+      types:
+        - p.K1423E
+        - p.R1276P
+
+    - name: EGFR
+      types:
+        - amplification
+
+- type: Brain
+  subtype: Astrocytoma, IDH-mutant
+  required-markers:
+    - name: IDH2
+      types:
+        - p.R172K/S
+        - p.R140Q
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: BRAF
+      types:
+        - p.V600E
+
+    - name: NF1
+      types:
+        - p.K1423E
+        - p.R1276P
+
+    - name: EGFR
+      types:
+        - amplification
+
+- type: Brain
+  subtype: Oligodendroglioma, IDH-mutant and 1p/19q-codeleted
+  required-markers:
+    - name: IDH1
+      types:
+        - p.R132H/C/G
+
+    - name: 1p
+      types:
+        - loss
+
+    - name: 19q
+      types:
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: NOTCH1
+      types:
+        - deletion
+
+- type: Brain
+  subtype: Oligodendroglioma, IDH-mutant and 1p/19q-codeleted
+  required-markers:
+    - name: IDH2
+      types:
+        - p.R172K/S
+        - p.R140Q
+
+    - name: 1p
+      types:
+        - loss
+
+    - name: 19q
+      types:
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ARID1A
+      types:
+        - truncation
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: NOTCH1
+      types:
+        - deletion
+
+- type: Brain
+  subtype: Glioblastoma, IDH-wildtype
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: PTEN
+      types:
+        - truncation
+
+  optional-markers:
+    - name: NF1
+      types:
+        - p.K1423E
+        - p.R1276P
+
+    - name: RB1
+      types:
+        - truncation
+
+  excluded-markers:
+    - name: IDH1
+      types:
+        - any
+
+    - name: IDH2
+      types:
+        - any
+
+- type: Brain
+  subtype: Glioblastoma, IDH-wildtype
+  required-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+  optional-markers:
+    - name: NF1
+      types:
+        - p.K1423E
+        - p.R1276P
+
+    - name: RB1
+      types:
+        - truncation
+
+  excluded-markers:
+    - name: IDH1
+      types:
+        - any
+
+    - name: IDH2
+      types:
+        - any
+
+- type: Brain
+  subtype: Glioblastoma, IDH-wildtype
+  required-markers:
+    - name: TERT
+      types:
+        - c.−124C>T
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: BRAF
+      types:
+        - p.V600E
+
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: RB1
+      types:
+        - truncation
+
+  excluded-markers:
+    - name: IDH1
+      types:
+        - any
+
+    - name: IDH2
+      types:
+        - any
+
+- type: Brain
+  subtype: Glioblastoma, IDH-wildtype
+  required-markers:
+    - name: TERT
+      types:
+        - c.−124C>T
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: NF1
+      types:
+        - p.K1423E
+        - p.R1276P
+
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: RB1
+      types:
+        - truncation
+
+  excluded-markers:
+    - name: IDH1
+      types:
+        - any
+
+    - name: IDH2
+      types:
+        - any
+
+- type: Brain
+  subtype: Glioblastoma, IDH-wildtype
+  required-markers:
+    - name: ATRX
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: PTEN
+      types:
+        - truncation
+
+    - name: NF1
+      types:
+        - p.K1423E
+        - p.R1276P
+
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: RB1
+      types:
+        - truncation
+
+  excluded-markers:
+    - name: IDH1
+      types:
+        - any
+
+    - name: IDH2
+      types:
+        - any
+
+# pediatric tumor
+
+- type: Brain
+  subtype: Diffuse Midline Glioma, H3 K27-altered
+  required-markers:
+    - name: H3-3A
+      types:
+        - p.K28M
+        - p.G35R/V
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: PIK3CA
+      types:
+        - p.E545K
+        - p.H1047R
+
+    - name: ATRX
+      types:
+        - truncation
+
+- type: Brain
+  subtype: Atypical Teratoid/Rhabdoid Tumor
+  required-markers:
+    - name: SMARCB1
+      types:
+        - loss
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: BRAF
+      types:
+        - p.V600E
+
+    - name: NRAS
+      types:
+        - p.G12X
+
+    - name: KRAS
+      types:
+        - p.G12X
+
+- type: Brain
+  subtype: Medulloblastoma
+  required-markers:
+    - name: CTNNB1
+      types:
+        - p.S33A/C/F/Y
+        - p.S37A/F/Y
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: DDX3X
+      types:
+        - truncation
+
+    - name: KMT2D
+      types:
+        - truncation
+
+    - name: CREBBP
+      types:
+        - truncation
+
+- type: Brain
+  subtype: Medulloblastoma
+  required-markers:
+    - name: PTCH1
+      types:
+        - truncation
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: DDX3X
+      types:
+        - truncation
+
+    - name: TERT
+      types:
+        - c.−124C>T
+
+    - name: KMT2D
+      types:
+        - truncation
+
+    - name: CREBBP
+      types:
+        - truncation

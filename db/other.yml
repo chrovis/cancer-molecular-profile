@@ -1,0 +1,25 @@
+---
+
+- type: Pleura
+  subtype: Mesothelioma
+  required-markers:
+    - name: BAP1
+      types:
+        - loss
+
+    - name: TP53
+      types:
+        - truncation
+
+# PMID: 26928227
+
+- type: Peritoneum
+  subtype: Mesothelioma
+  required-markers:
+    - name: BAP1
+      types:
+        - loss
+
+    - name: TP53
+      types:
+        - truncation

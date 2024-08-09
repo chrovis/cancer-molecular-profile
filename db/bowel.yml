@@ -1,0 +1,285 @@
+---
+
+# Colon cancer
+
+# PMID: 22810696
+# PMID: 33309985
+
+# Usual type
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: APC
+      types:
+        - truncation
+
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: ERBB2
+      types:
+        - amplification
+        - p.R678Q
+
+    - name: PTEN
+      types:
+        - truncation
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: APC
+      types:
+        - truncation
+
+    - name: NRAS
+      types:
+        - p.G12X
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: ERBB2
+      types:
+        - amplification
+        - p.R678Q
+
+    - name: PTEN
+      types:
+        - truncation
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: APC
+      types:
+        - truncation
+
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: ERBB2
+      types:
+        - amplification
+        - p.R678Q
+
+    - name: PTEN
+      types:
+        - truncation
+
+# dMMR
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: MLH1
+      types:
+        - truncation
+
+    - name: TMB-High
+    - name: MSI-High
+
+    - name: APC
+      types:
+        - truncation
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: MSH2
+      types:
+        - truncation
+
+    - name: TMB-High
+    - name: MSI-High
+
+    - name: APC
+      types:
+        - truncation
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: MSH6
+      types:
+        - truncation
+
+    - name: TMB-High
+    - name: MSI-High
+
+    - name: APC
+      types:
+        - truncation
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: PMS2
+      types:
+        - truncation
+
+    - name: TMB-High
+    - name: MSI-High
+
+    - name: APC
+      types:
+        - truncation
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: BRAF
+      types:
+        - p.V600E/K
+
+# Other polyposis
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: EPCAM
+      types:
+        - truncation
+
+    - name: APC
+      types:
+        - truncation
+
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: ERBB2
+      types:
+        - amplification
+        - p.R678Q
+
+- type: Bowel
+  subtype: Colorectal Adenocarcinoma
+  required-markers:
+    - name: MUTYH
+      types:
+        - truncation
+
+    - name: APC
+      types:
+        - truncation
+
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: SMAD4
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: EGFR
+      types:
+        - amplification
+
+    - name: ERBB2
+      types:
+        - amplification
+        - p.R678Q

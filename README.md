@@ -21,7 +21,7 @@ We define the following two sections as molecular profiles for each tumor type:
 
 ## Profiles
 
-Total: 111 cases
+Total: 112 cases
 
 | Tissue | Subtype | Representative Gene Variants or Biomarkers | Other Gene Variants or Biomarkers |
 | --- | --- | --- | --- |
@@ -50,15 +50,15 @@ Total: 111 cases
 | Bowel | Colorectal Adenocarcinoma | PMS2 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation | BRAF p.V600E/K |
 | Bowel | Colorectal Adenocarcinoma | EPCAM truncation, APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation | EGFR amplification, ERBB2 amplification p.R678Q |
 | Bowel | Colorectal Adenocarcinoma | MUTYH truncation, APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation | EGFR amplification, ERBB2 amplification p.R678Q |
-| Brain | Astrocytoma, IDH-mutant | IDH1 p.R132C/G/H/L/S, TP53 truncation | PTEN truncation, BRAF p.V600E, NF1 p.K1423E p.R1276P, EGFR amplification |
-| Brain | Astrocytoma, IDH-mutant | IDH2 p.R172K/S p.R140Q, TP53 truncation | PTEN truncation, BRAF p.V600E, NF1 p.K1423E p.R1276P, EGFR amplification |
+| Brain | Astrocytoma, IDH-mutant | IDH1 p.R132C/G/H/L/S, TP53 truncation | PTEN truncation, BRAF p.V600E, NF1 p.K1444E p.R1276P, EGFR amplification |
+| Brain | Astrocytoma, IDH-mutant | IDH2 p.R172K/S p.R140Q, TP53 truncation | PTEN truncation, BRAF p.V600E, NF1 p.K1444E p.R1276P, EGFR amplification |
 | Brain | Atypical Teratoid/Rhabdoid Tumor | SMARCB1 loss | TP53 truncation, BRAF p.V600E, NRAS p.G12X, KRAS p.G12X |
 | Brain | Diffuse Midline Glioma, H3 K27-altered | H3-3A p.K28M p.G35R/V, TP53 truncation | PIK3CA p.E545K p.H1047R, ATRX truncation |
-| Brain | Glioblastoma, IDH-wildtype | TP53 truncation, EGFR amplification, PTEN truncation | NF1 p.K1423E p.R1276P, RB1 truncation |
-| Brain | Glioblastoma, IDH-wildtype | TP53 truncation, EGFR amplification, PIK3CA p.E545K p.H1047R | NF1 p.K1423E p.R1276P, RB1 truncation |
+| Brain | Glioblastoma, IDH-wildtype | TP53 truncation, EGFR amplification, PTEN truncation | NF1 p.K1444E p.R1276P, RB1 truncation |
+| Brain | Glioblastoma, IDH-wildtype | TP53 truncation, EGFR amplification, PIK3CA p.E545K p.H1047R | NF1 p.K1444E p.R1276P, RB1 truncation |
 | Brain | Glioblastoma, IDH-wildtype | TERT c.−124C>T, TP53 truncation | PIK3CA p.E545K p.H1047R, BRAF p.V600E, EGFR amplification, RB1 truncation |
-| Brain | Glioblastoma, IDH-wildtype | TERT c.−124C>T, TP53 truncation | PTEN truncation, NF1 p.K1423E p.R1276P, EGFR amplification, RB1 truncation |
-| Brain | Glioblastoma, IDH-wildtype | ATRX truncation, TP53 truncation | PTEN truncation, NF1 p.K1423E p.R1276P, EGFR amplification, RB1 truncation |
+| Brain | Glioblastoma, IDH-wildtype | TERT c.−124C>T, TP53 truncation | PTEN truncation, NF1 p.K1444E p.R1276P, EGFR amplification, RB1 truncation |
+| Brain | Glioblastoma, IDH-wildtype | ATRX truncation, TP53 truncation | PTEN truncation, NF1 p.K1444E p.R1276P, EGFR amplification, RB1 truncation |
 | Brain | Medulloblastoma | CTNNB1 p.S33A/C/F/Y p.S37A/F/Y | TP53 truncation, DDX3X truncation, KMT2D truncation, CREBBP truncation |
 | Brain | Medulloblastoma | PTCH1 truncation | TP53 truncation, DDX3X truncation, TERT c.−124C>T, KMT2D truncation, CREBBP truncation |
 | Brain | Oligodendroglioma, IDH-mutant and 1p/19q-codeleted | IDH1 p.R132H/C/G, 1p loss, 19q loss | TP53 truncation, ARID1A truncation, PIK3CA p.E545K p.H1047R, NOTCH1 deletion |
@@ -106,7 +106,7 @@ Total: 111 cases
 | Prostate | Adenocarcinoma | TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation | AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss |
 | Salivary Gland | Adenoid Cystic Carcinoma | MYB-NFIB fusion | TP53 truncation, NOTCH1 deletion |
 | Salivary Gland | Mucoepidermoid Carcinoma | HRAS p.G12V | TP53 truncation |
-| Salivary Gland | Salivary Duct Carcinoma | ERBB2 amplification, CDK12 truncation | TP53 truncation, NF1 p.K1423E p.R1276P, PIK3CA p.E545K p.H1047R, CDKN2A loss |
+| Salivary Gland | Salivary Duct Carcinoma | ERBB2 amplification, CDK12 truncation | TP53 truncation, NF1 p.K1444E p.R1276P, PIK3CA p.E545K p.H1047R, CDKN2A loss |
 | Skin | Melanoma | BRAF p.V600E/K |  |
 | Skin | Melanoma | KIT p.K642E |  |
 | Soft Tissue | Dedifferentiated Liposarcoma | MDM2 amplification, CDK4 amplification |  |
@@ -132,7 +132,8 @@ Total: 111 cases
 | Thyroid | Papillary Carcinoma | BRAF p.V600E | TP53 truncation |
 | Thyroid | Papillary Carcinoma | CCDC6-RET fusion | TP53 truncation |
 | Uterus | Endometrial Stromal Sarcoma | JAZF1-SUZ12 fusion | PMS2 loss, PTEN loss |
-| Uterus | Endometrial Stromal Sarcoma | YWHAE-NUTM2 fusion | 16q loss, CDH1 loss, TP53 loss, RB1 loss |
+| Uterus | Endometrial Stromal Sarcoma | YWHAE-NUTM2A fusion | 16q loss, CDH1 loss, TP53 loss, RB1 loss |
+| Uterus | Endometrial Stromal Sarcoma | YWHAE-NUTM2B fusion | 16q loss, CDH1 loss, TP53 loss, RB1 loss |
 | Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E545K p.H1047R, ARID1A truncation, CTNNB1 p.S33A/C/F/Y p.S37A/F/Y |  |
 | Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E545K p.H1047R, ARID1A truncation, KRAS p.G12X |  |
 | Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3R1 truncation, ARID1A truncation | CTNNB1 p.S33A/C/F/Y p.S37A/F/Y, KRAS p.G12X, PPP2R1A truncation |
@@ -160,7 +161,7 @@ Total: 111 cases
 - Stomach: 8
 - Thymus: 1
 - Thyroid: 4
-- Uterus: 5
+- Uterus: 6
 
 ## License
 

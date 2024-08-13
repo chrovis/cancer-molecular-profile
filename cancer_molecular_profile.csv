@@ -34,8 +34,8 @@ Brain,"Glioblastoma, IDH-wildtype","TERT c.−124C>T, TP53 truncation","PTEN tru
 Brain,"Glioblastoma, IDH-wildtype","ATRX truncation, TP53 truncation","PTEN truncation, NF1 p.K1444E p.R1276P, EGFR amplification, RB1 truncation"
 Brain,Medulloblastoma,CTNNB1 p.S33A/C/F/Y p.S37A/F/Y,"TP53 truncation, DDX3X truncation, KMT2D truncation, CREBBP truncation"
 Brain,Medulloblastoma,PTCH1 truncation,"TP53 truncation, DDX3X truncation, TERT c.−124C>T, KMT2D truncation, CREBBP truncation"
-Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH1 p.R132H/C/G, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E545K p.H1047R, NOTCH1 deletion"
-Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH2 p.R172K/S p.R140Q, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E545K p.H1047R, NOTCH1 deletion"
+Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH1 p.R132H/C/G, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E545K p.H1047R, NOTCH1 truncation"
+Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH2 p.R172K/S p.R140Q, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E545K p.H1047R, NOTCH1 truncation"
 Breast,Breast Invasive Ductal Carcinoma,"ESR1 p.Y537S p.D538G, PIK3CA p.E545K p.H1047R","TP53 truncation, MAP3K1 truncation, ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss"
 Breast,Breast Invasive Ductal Carcinoma,"ERBB2 amplification p.S310F, TP53 truncation","FGFR1 amplification, MAP3K1 truncation, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss"
 Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, ATM truncation","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss"
@@ -77,7 +77,7 @@ Prostate,Adenocarcinoma,BRCA1 truncation,"HRD-High, AR amplification, TP53 trunc
 Prostate,Adenocarcinoma,BRCA2 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, RAD51B truncation, RB1 loss"
 Prostate,Adenocarcinoma,CDK12 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, RAD51B truncation, RB1 loss"
 Prostate,Adenocarcinoma,"TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation","AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss"
-Salivary Gland,Adenoid Cystic Carcinoma,MYB-NFIB fusion,"TP53 truncation, NOTCH1 deletion"
+Salivary Gland,Adenoid Cystic Carcinoma,MYB-NFIB fusion,"TP53 truncation, NOTCH1 truncation"
 Salivary Gland,Mucoepidermoid Carcinoma,HRAS p.G12V,TP53 truncation
 Salivary Gland,Salivary Duct Carcinoma,"ERBB2 amplification, CDK12 truncation","TP53 truncation, NF1 p.K1444E p.R1276P, PIK3CA p.E545K p.H1047R, CDKN2A loss"
 Skin,Melanoma,BRAF p.V600E/K,

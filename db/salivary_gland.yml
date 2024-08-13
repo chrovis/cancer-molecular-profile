@@ -19,7 +19,7 @@
 
     - name: NOTCH1
       types:
-        - deletion
+        - truncation
 
 - type: Salivary Gland
   subtype: Salivary Duct Carcinoma

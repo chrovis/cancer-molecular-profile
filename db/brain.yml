@@ -103,7 +103,7 @@
 
     - name: NOTCH1
       types:
-        - deletion
+        - truncation
 
 - type: Brain
   subtype: Oligodendroglioma, IDH-mutant and 1p/19q-codeleted
@@ -137,7 +137,7 @@
 
     - name: NOTCH1
       types:
-        - deletion
+        - truncation
 
 - type: Brain
   subtype: Glioblastoma, IDH-wildtype

@@ -16,8 +16,8 @@ To make the list more objective, we also referred to literature, especially comp
 
 We define the following two sections as molecular profiles for each tumor type:
 
-- Representative Gene Variants or Biomarkers: Present in almost all tumors of specified subtypes.
-- Other Gene Variants or Biomarkers: Present or absent in some tumors of specified subtypes, but these markers are characteristic for subtypes.
+- `Representative Gene Variants or Biomarkers`: Frequently present in the  specified tumor type and significant for the specific molecular subtype of it
+- `Other Gene Variants or Biomarkers`: Present in some of the specified tumor types and characterize the molecular subtype
 
 ## Profiles
 

@@ -33,6 +33,7 @@
   required-markers:
     - name: NRAS
       types:
+        - p.Q61K
         - p.Q61R
 
   optional-markers:
@@ -43,6 +44,10 @@
     - name: PTEN
       types:
         - truncation
+
+    - name: PAX8-PPARG
+      types:
+        - fusion
 
 - type: Thyroid
   subtype: Anaplastic Carcinoma

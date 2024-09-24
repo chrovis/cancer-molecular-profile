@@ -52,10 +52,6 @@
       types:
         - loss
 
-    - name: MTAP
-      types:
-        - loss
-
 - type: Pancreas
   subtype: Pancreatic Adenocarcinoma
   required-markers:

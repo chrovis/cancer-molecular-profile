@@ -46,13 +46,7 @@
     - name: NRAS
       types:
         - p.G12X
-
-- type: Ovary
-  subtype: Low-Grade Serous Ovarian Cancer
-  required-markers:
-    - name: NF1
-      types:
-        - truncation
+        - p.Q61R/K
 
 - type: Ovary
   subtype: Low-Grade Serous Ovarian Cancer
@@ -149,10 +143,6 @@
       types:
         - p.G12X
 
-    - name: PPP2R1A
-      types:
-        - truncation
-
 # Endometrial Stromal Sarcomaを追加
 # PMID: 26429873
 # PMID: 30149610
@@ -166,13 +156,13 @@
         - fusion
 
   optional-markers:
-    - name: PMS2
+    - name: CDKN2A
       types:
         - loss
 
-    - name: PTEN
+    - name: ZC3H7B-BCOR
       types:
-        - loss
+        - fusion
 
 # High grade
 
@@ -188,7 +178,7 @@
       types:
         - loss
 
-    - name: CDH1
+    - name: CDKN2A
       types:
         - loss
 
@@ -199,6 +189,10 @@
     - name: RB1
       types:
         - loss
+
+    - name: ZC3H7B-BCOR
+      types:
+        - fusion
 
 - type: Uterus
   subtype: Endometrial Stromal Sarcoma
@@ -212,7 +206,7 @@
       types:
         - loss
 
-    - name: CDH1
+    - name: CDKN2A
       types:
         - loss
 
@@ -223,3 +217,7 @@
     - name: RB1
       types:
         - loss
+
+    - name: ZC3H7B-BCOR
+      types:
+        - fusion

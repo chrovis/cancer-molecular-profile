@@ -33,11 +33,6 @@
       types:
         - p.V600E
 
-    - name: NF1
-      types:
-        - p.K1444E
-        - p.R1276P
-
     - name: EGFR
       types:
         - amplification
@@ -48,7 +43,6 @@
     - name: IDH2
       types:
         - p.R172K/S
-        - p.R140Q
 
     - name: TP53
       types:
@@ -62,11 +56,6 @@
     - name: BRAF
       types:
         - p.V600E
-
-    - name: NF1
-      types:
-        - p.K1444E
-        - p.R1276P
 
     - name: EGFR
       types:
@@ -111,7 +100,6 @@
     - name: IDH2
       types:
         - p.R172K/S
-        - p.R140Q
 
     - name: 1p
       types:
@@ -158,7 +146,6 @@
     - name: NF1
       types:
         - p.K1444E
-        - p.R1276P
 
     - name: RB1
       types:
@@ -193,7 +180,6 @@
     - name: NF1
       types:
         - p.K1444E
-        - p.R1276P
 
     - name: RB1
       types:
@@ -265,7 +251,6 @@
     - name: NF1
       types:
         - p.K1444E
-        - p.R1276P
 
     - name: EGFR
       types:
@@ -303,7 +288,6 @@
     - name: NF1
       types:
         - p.K1444E
-        - p.R1276P
 
     - name: EGFR
       types:
@@ -330,7 +314,6 @@
     - name: H3-3A
       types:
         - p.K28M
-        - p.G35R/V
 
     - name: TP53
       types:

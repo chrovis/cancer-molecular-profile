@@ -11,9 +11,20 @@
       types:
         - p.V600E/K
 
+  optional-markers:
+    - name: NRAS
+      types:
+        - p.Q61X
+
 - type: Skin
   subtype: Melanoma
   required-markers:
     - name: KIT
       types:
+        - p.L576P
         - p.K642E
+
+  optional-markers:
+    - name: NRAS
+      types:
+        - p.Q61X

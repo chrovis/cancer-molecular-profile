@@ -19,26 +19,6 @@
 - type: Adrenal Gland
   subtype: Pheochromocytoma
   required-markers:
-    - name: SDHA
-      types:
-        - loss  # germline
-
-  optional-markers:
-    - name: TP53
-      types:
-        - truncation
-
-    - name: ATRX
-      types:
-        - truncation
-
-    - name: CDKN2A
-      types:
-        - loss
-
-- type: Adrenal Gland
-  subtype: Pheochromocytoma
-  required-markers:
     - name: SDHB
       types:
         - loss  # germline
@@ -52,16 +32,12 @@
       types:
         - truncation
 
-    - name: CDKN2A
-      types:
-        - loss
-
 - type: Adrenal Gland
   subtype: Pheochromocytoma
   required-markers:
     - name: SDHC
       types:
-        - loss  # germline
+        - amplification
 
   optional-markers:
     - name: TP53
@@ -71,30 +47,6 @@
     - name: ATRX
       types:
         - truncation
-
-    - name: CDKN2A
-      types:
-        - loss
-
-- type: Adrenal Gland
-  subtype: Pheochromocytoma
-  required-markers:
-    - name: SDHD
-      types:
-        - loss  # germline
-
-  optional-markers:
-    - name: TP53
-      types:
-        - truncation
-
-    - name: ATRX
-      types:
-        - truncation
-
-    - name: CDKN2A
-      types:
-        - loss
 
 - type: Adrenal Gland
   subtype: Pheochromocytoma
@@ -102,6 +54,7 @@
     - name: RET
       types:
         - p.C634R
+        - p.M918T
 
   optional-markers:
     - name: TP53
@@ -111,10 +64,6 @@
     - name: ATRX
       types:
         - truncation
-
-    - name: CDKN2A
-      types:
-        - loss
 
 # RET
 # PMID: 8918855

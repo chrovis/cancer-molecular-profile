@@ -107,6 +107,7 @@
     - name: RHOA
       types:
         - p.G17A/E/V
+        - p.Y42C/S
 
   optional-markers:
     - name: CLDN18-ARHGAP26

@@ -30,8 +30,3 @@
     - name: TP53
       types:
         - truncation
-
-    - name: CTNNB1
-      types:
-        - p.S33A/C/F/Y
-        - p.S37A/F/Y

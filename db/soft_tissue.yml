@@ -7,6 +7,7 @@
       types:
         - p.W557_K558del
         - p.L576P
+        - p.V559G
 
 # PMID: 29636989
 
@@ -107,6 +108,7 @@
 
     - name: PTEN
       types:
+        - loss
         - truncation
 
     - name: MAP2K4
@@ -127,6 +129,8 @@
     - name: CTNNB1
       types:
         - p.S33A/Y/C
+        - p.S37X
+        - p.S45X
 
     - name: ATM
       types:
@@ -181,7 +185,7 @@
   required-markers:
     - name: NRAS
       types:
-        - p.G12X
+        - p.Q61K
 
     - name: 11p15
       types:

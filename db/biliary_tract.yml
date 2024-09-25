@@ -51,6 +51,10 @@
         - truncation
 
   optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
     - name: CDKN2A
       types:
         - loss
@@ -83,6 +87,74 @@
         - truncation
 
   optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Biliary Tract
+  subtype: Cholangiocarcinoma
+  required-markers:
+    - name: FGFR2-BICC1
+      types:
+        - fusion
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Biliary Tract
+  subtype: Cholangiocarcinoma
+  required-markers:
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
     - name: CDKN2A
       types:
         - loss

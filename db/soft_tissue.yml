@@ -211,3 +211,37 @@
     - name: TP53
       types:
         - loss
+
+# Paraganglioma
+
+- type: Soft Tissue
+  subtype: Paraganglioma
+  required-markers:
+    - name: SDHB
+      types:
+        - loss  # germline
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation
+
+- type: Soft Tissue
+  subtype: Paraganglioma
+  required-markers:
+    - name: SDHD
+      types:
+        - loss  # germline
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation

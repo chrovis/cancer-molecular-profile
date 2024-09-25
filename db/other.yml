@@ -10,10 +10,10 @@
     - name: TP53
       types:
         - truncation
+
   optional-markers:
     - name: NF2
       types:
-        - loss
         - truncation
 
 # PMID: 26928227
@@ -26,5 +26,10 @@
         - loss
 
     - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: NF2
       types:
         - truncation

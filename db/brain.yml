@@ -87,11 +87,18 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
     - name: NOTCH1
       types:
+        - truncation
+
+    - name: CIC
+      types:
+        - p R202W
+        - p.R215W/Q
         - truncation
 
 - type: Brain
@@ -120,11 +127,18 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
     - name: NOTCH1
       types:
+        - truncation
+
+    - name: CIC
+      types:
+        - p R202W
+        - p.R215W/Q
         - truncation
 
 - type: Brain
@@ -145,7 +159,7 @@
   optional-markers:
     - name: NF1
       types:
-        - p.K1444E
+        - truncation
 
     - name: RB1
       types:
@@ -173,13 +187,14 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
   optional-markers:
     - name: NF1
       types:
-        - p.K1444E
+        - truncation
 
     - name: RB1
       types:
@@ -208,6 +223,7 @@
   optional-markers:
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -250,7 +266,7 @@
 
     - name: NF1
       types:
-        - p.K1444E
+        - truncation
 
     - name: EGFR
       types:
@@ -287,7 +303,7 @@
 
     - name: NF1
       types:
-        - p.K1444E
+        - truncation
 
     - name: EGFR
       types:
@@ -322,6 +338,7 @@
   optional-markers:
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -341,18 +358,6 @@
       types:
         - truncation
 
-    - name: BRAF
-      types:
-        - p.V600E
-
-    - name: NRAS
-      types:
-        - p.G12X
-
-    - name: KRAS
-      types:
-        - p.G12X
-
 - type: Brain
   subtype: Medulloblastoma
   required-markers:
@@ -368,7 +373,11 @@
 
     - name: DDX3X
       types:
-        - truncation
+        - p.T275M
+        - p.G302V
+        - p.R326C
+        - p.R351W
+        - p.M380I
 
     - name: KMT2D
       types:
@@ -392,7 +401,11 @@
 
     - name: DDX3X
       types:
-        - truncation
+        - p.T275M
+        - p.G302V
+        - p.R326C
+        - p.R351W
+        - p.M380I
 
     - name: TERT
       types:

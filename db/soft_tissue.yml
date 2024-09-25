@@ -185,7 +185,7 @@
   required-markers:
     - name: NRAS
       types:
-        - p.Q61K
+        - p.Q61X
 
     - name: 11p15
       types:
@@ -218,22 +218,6 @@
   subtype: Paraganglioma
   required-markers:
     - name: SDHB
-      types:
-        - loss  # germline
-
-  optional-markers:
-    - name: TP53
-      types:
-        - truncation
-
-    - name: ATRX
-      types:
-        - truncation
-
-- type: Soft Tissue
-  subtype: Paraganglioma
-  required-markers:
-    - name: SDHD
       types:
         - loss  # germline
 

@@ -73,7 +73,7 @@ Total: 114 cases
 | Esophagus | Squamous Cell Carcinoma | TP53 truncation | NOTCH1 truncation, KMT2D truncation, PTEN truncation |
 | Esophagus | Squamous Cell Carcinoma | TP53 truncation | CDKN2A truncation, KMT2D truncation, PTEN truncation |
 | Kidney | Renal Cell Carcinoma | VHL truncation loss |  |
-| Kidney | Wilms Tumor | WT1 loss | TP53 truncation, CTNNB1 p.S45F p.T41A |
+| Kidney | Wilms Tumor | WT1 loss | TP53 truncation, CTNNB1 p.T41A p.S45F |
 | Lung | Lung Adenocarcinoma | EGFR p.L858R exon 19 deletion exon 20 insertion, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
 | Lung | Lung Adenocarcinoma | KRAS p.G12X, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
 | Lung | Lung Adenocarcinoma | MET exon 14 skipping, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
@@ -111,14 +111,14 @@ Total: 114 cases
 | Skin | Melanoma | KIT p.L576P p.K642E | CDKN2A loss, CDKN2B loss, MTAP loss |
 | Soft Tissue | Dedifferentiated Liposarcoma | MDM2 amplification, CDK4 amplification |  |
 | Soft Tissue | Ewing Sarcoma | EWSR1-FLI1 fusion | TP53 truncation, CDKN2A loss, STAG2 truncation |
-| Soft Tissue | Gastrointestinal Stromal Tumor | KIT p.W557_K558del p.L576P p.V559G |  |
+| Soft Tissue | Gastrointestinal Stromal Tumor | KIT p.W557_K558del p.V559G p.L576P |  |
 | Soft Tissue | Leiomyosarcoma | TP53 loss, RB1 loss | ATRX truncation, PTEN loss truncation, MAP2K4 amplification |
 | Soft Tissue | Paraganglioma | SDHB loss | TP53 truncation, ATRX truncation |
 | Soft Tissue | Rhabdomyosarcoma | PAX3-FOXO1 fusion | MYCN amplification, CDK4 amplification, 11p15 loss |
 | Soft Tissue | Rhabdomyosarcoma | PAX7-FOXO1 fusion | MYCN amplification, CDK4 amplification, 11p15 loss |
 | Soft Tissue | Rhabdomyosarcoma | NRAS p.Q61X, 11p15 loss | TP53 loss |
 | Soft Tissue | Rhabdomyosarcoma | FGFR4 p.V550E/L/M, 11p15 loss | TP53 loss |
-| Soft Tissue | Synovial Sarcoma | SS18-SSX2 fusion | CTNNB1 p.S33A/Y/C p.S37X p.S45X, ATM truncation |
+| Soft Tissue | Synovial Sarcoma | SS18-SSX2 fusion | CTNNB1 p.S33A/Y/C p.S37A/F/Y p.T41A p.S45F, ATM truncation |
 | Stomach | Diffuse Type Stomach Adenocarcinoma | CDH1 truncation, RHOA p.Y42C/S | CLDN18-ARHGAP26 fusion |
 | Stomach | Intestinal Type Stomach Adenocarcinoma | PIK3CA p.E545K p.H1047R, ARID1A truncation, CD274 amplification, ERBB2 amplification | PTEN truncation |
 | Stomach | Intestinal Type Stomach Adenocarcinoma | PIK3CA p.E545K p.H1047R, ARID1A truncation, CD274 amplification, EGFR amplification | PTEN truncation |
@@ -133,12 +133,12 @@ Total: 114 cases
 | Thyroid | Follicular Carcinoma | PAX8-PPARG fusion | TP53 truncation |
 | Thyroid | Papillary Carcinoma | BRAF p.V600E | TP53 truncation |
 | Thyroid | Papillary Carcinoma | CCDC6-RET fusion | TP53 truncation |
-| Uterus | Endometrial Stromal Sarcoma | JAZF1-SUZ12 fusion | CDKN2A loss, ZC3H7B-BCOR fusion |
-| Uterus | Endometrial Stromal Sarcoma | YWHAE-NUTM2A fusion | 16q loss, CDKN2A loss, TP53 loss, RB1 loss, ZC3H7B-BCOR fusion |
-| Uterus | Endometrial Stromal Sarcoma | YWHAE-NUTM2B fusion | 16q loss, CDKN2A loss, TP53 loss, RB1 loss, ZC3H7B-BCOR fusion |
-| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E545K p.H1047R, ARID1A truncation, CTNNB1 p.S33A/C/F/Y p.S37A/F/Y |  |
-| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E545K p.H1047R, ARID1A truncation, KRAS p.G12X |  |
-| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3R1 truncation, ARID1A truncation | CTNNB1 p.S33A/C/F/Y p.S37A/F/Y, KRAS p.G12X |
+| Uterus | Endometrial Stromal Sarcoma | JAZF1-SUZ12 fusion | CDKN2A loss |
+| Uterus | Endometrial Stromal Sarcoma | YWHAE-NUTM2A fusion | 16q loss, CDKN2A loss, TP53 loss, RB1 loss |
+| Uterus | Endometrial Stromal Sarcoma | ZC3H7B-BCOR fusion | 16q loss, CDKN2A loss, TP53 loss, RB1 loss |
+| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F |  |
+| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, KRAS p.G12X |  |
+| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3R1 truncation, ARID1A truncation | CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F, KRAS p.G12X, PPP2R1A p.P179L/R p.R183G/P/Q/W |
 
 ## Count of Profiles by Tissue Type
 

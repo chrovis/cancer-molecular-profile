@@ -21,7 +21,7 @@ We define the following two sections as molecular profiles for each tumor type:
 
 ## Profiles
 
-Total: 111 cases
+Total: 114 cases
 
 | Tissue | Subtype | Representative Gene Variants or Biomarkers | Other Gene Variants or Biomarkers |
 | --- | --- | --- | --- |
@@ -102,8 +102,10 @@ Total: 111 cases
 | Prostate | Adenocarcinoma | CDK12 truncation | HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss |
 | Prostate | Adenocarcinoma | TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation | AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss, SPOP p.F133C/L/V |
 | Salivary Gland | Adenoid Cystic Carcinoma | MYB-NFIB fusion | TP53 truncation, NOTCH1 truncation |
-| Salivary Gland | Mucoepidermoid Carcinoma | HRAS p.G12V | TP53 truncation,  loss,  loss |
-| Salivary Gland | Salivary Duct Carcinoma | ERBB2 amplification, CDK12 amplification | TP53 truncation, NF1 p.K1444E p.R1276P, PIK3CA p.E545K p.H1047R, CDKN2A loss |
+| Salivary Gland | Mucoepidermoid Carcinoma | HRAS p.G12V, PIK3CA p.E542K p.E545K p.H1047R | TP53 truncation,  loss,  loss |
+| Salivary Gland | Salivary Duct Carcinoma | ERBB2 amplification, CDK12 amplification, TP53 truncation | CDKN2A loss |
+| Salivary Gland | Salivary Duct Carcinoma | HRAS amplification, TP53 truncation | PIK3CA p.E542K p.E545K p.H1047R, CDKN2A loss |
+| Salivary Gland | Salivary Duct Carcinoma | NF1 truncation, TP53 truncation | CDKN2A loss |
 | Skin | Melanoma | BRAF p.V600E/K | CDKN2A loss, CDKN2B loss, MTAP loss |
 | Skin | Melanoma | NRAS p.Q61X | CDKN2A loss, CDKN2B loss, MTAP loss |
 | Skin | Melanoma | KIT p.L576P p.K642E | CDKN2A loss, CDKN2B loss, MTAP loss |
@@ -127,7 +129,8 @@ Total: 111 cases
 | Stomach | Intestinal Type Stomach Adenocarcinoma | PIK3CA amplification, TP53 truncation | CCNE1 amplification, CCND1 amplification |
 | Thymus | Thymic carcinoma | TP53 truncation, CDKN2A loss, CDKN2B loss |  |
 | Thyroid | Anaplastic Carcinoma | BRAF p.V600E, TP53 truncation | CDKN2A loss, CDKN2B loss, PTEN truncation |
-| Thyroid | Follicular Carcinoma | NRAS p.Q61K p.Q61R | TP53 truncation, PTEN truncation, PAX8-PPARG fusion |
+| Thyroid | Follicular Carcinoma | NRAS p.Q61X | TP53 truncation |
+| Thyroid | Follicular Carcinoma | PAX8-PPARG fusion | TP53 truncation |
 | Thyroid | Papillary Carcinoma | BRAF p.V600E | TP53 truncation |
 | Thyroid | Papillary Carcinoma | CCDC6-RET fusion | TP53 truncation |
 | Uterus | Endometrial Stromal Sarcoma | JAZF1-SUZ12 fusion | CDKN2A loss, ZC3H7B-BCOR fusion |
@@ -154,12 +157,12 @@ Total: 111 cases
 - Peritoneum: 1
 - Pleura: 1
 - Prostate: 6
-- Salivary Gland: 3
+- Salivary Gland: 5
 - Skin: 3
 - Soft Tissue: 10
 - Stomach: 8
 - Thymus: 1
-- Thyroid: 4
+- Thyroid: 5
 - Uterus: 6
 
 ## License

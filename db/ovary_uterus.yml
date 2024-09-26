@@ -85,6 +85,7 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -96,6 +97,8 @@
       types:
         - p.S33A/C/F/Y
         - p.S37A/F/Y
+        - p.T41A
+        - p.S45F
 
 - type: Uterus
   subtype: Uterine Endometrioid Carcinoma
@@ -106,6 +109,7 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -137,16 +141,25 @@
       types:
         - p.S33A/C/F/Y
         - p.S37A/F/Y
+        - p.T41A
+        - p.S45F
 
     - name: KRAS
       types:
         - p.G12X
 
-# Endometrial Stromal Sarcomaを追加
+    - name: PPP2R1A
+      types:
+        - p.P179L/R
+        - p.R183G/P/Q/W
+
+# Endometrial Stromal Sarcoma
+
 # PMID: 26429873
 # PMID: 30149610
 
 # Low grade
+
 - type: Uterus
   subtype: Endometrial Stromal Sarcoma
   required-markers:
@@ -158,10 +171,6 @@
     - name: CDKN2A
       types:
         - loss
-
-    - name: ZC3H7B-BCOR
-      types:
-        - fusion
 
 # High grade
 
@@ -189,14 +198,10 @@
       types:
         - loss
 
-    - name: ZC3H7B-BCOR
-      types:
-        - fusion
-
 - type: Uterus
   subtype: Endometrial Stromal Sarcoma
   required-markers:
-    - name: YWHAE-NUTM2B
+    - name: ZC3H7B-BCOR
       types:
         - fusion
 
@@ -216,7 +221,3 @@
     - name: RB1
       types:
         - loss
-
-    - name: ZC3H7B-BCOR
-      types:
-        - fusion

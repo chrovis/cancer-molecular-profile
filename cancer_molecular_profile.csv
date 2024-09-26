@@ -1,4 +1,4 @@
-Adrenal Gland,Pheochromocytoma,SDHB loss,"TP53 truncation, ATRX truncation, HRAS p.Q61R"
+Adrenal Gland,Pheochromocytoma,SDHB loss,"TP53 truncation, ATRX truncation, HRAS p.Q61X"
 Adrenal Gland,Pheochromocytoma,RET p.C634R p.M918T,"TP53 truncation, ATRX truncation"
 Biliary Tract,Cholangiocarcinoma,"IDH1 p.R132C, TP53 truncation","CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation, BAP1 loss"
 Biliary Tract,Cholangiocarcinoma,"IDH2 p.R172G/K/M/S/W, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation, BAP1 loss"
@@ -75,9 +75,9 @@ Prostate,Adenocarcinoma,BRCA2 truncation,"HRD-High, AR amplification, TP53 trunc
 Prostate,Adenocarcinoma,CDK12 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
 Prostate,Adenocarcinoma,"TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation","AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss, SPOP p.F133C/L/V"
 Salivary Gland,Adenoid Cystic Carcinoma,MYB-NFIB fusion,"TP53 truncation, NOTCH1 truncation"
-Salivary Gland,Mucoepidermoid Carcinoma,"HRAS p.G12V, PIK3CA p.E542K p.E545K p.H1047R","TP53 truncation, CDKN2A loss, CDKN2B loss"
+Salivary Gland,Mucoepidermoid Carcinoma,"HRAS p.Q61X, PIK3CA p.E542K p.E545K p.H1047R","TP53 truncation, CDKN2A loss, CDKN2B loss"
 Salivary Gland,Salivary Duct Carcinoma,"ERBB2 amplification, CDK12 amplification, TP53 truncation",CDKN2A loss
-Salivary Gland,Salivary Duct Carcinoma,"HRAS amplification, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, CDKN2A loss"
+Salivary Gland,Salivary Duct Carcinoma,"HRAS p.Q61X, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, CDKN2A loss"
 Salivary Gland,Salivary Duct Carcinoma,"NF1 truncation, TP53 truncation",CDKN2A loss
 Skin,Melanoma,BRAF p.V600E/K,"CDKN2A loss, CDKN2B loss, MTAP loss"
 Skin,Melanoma,NRAS p.Q61X,"CDKN2A loss, CDKN2B loss, MTAP loss"

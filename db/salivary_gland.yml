@@ -46,7 +46,7 @@
   required-markers:
     - name: HRAS
       types:
-        - amplification
+        - p.Q61X
 
     - name: TP53
       types:
@@ -87,7 +87,7 @@
   required-markers:
     - name: HRAS
       types:
-        - p.G12V
+        - p.Q61X
 
     - name: PIK3CA
       types:

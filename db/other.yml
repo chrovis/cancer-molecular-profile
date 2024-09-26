@@ -15,6 +15,7 @@
     - name: NF2
       types:
         - truncation
+        - loss
 
 # PMID: 26928227
 
@@ -33,3 +34,4 @@
     - name: NF2
       types:
         - truncation
+        - loss

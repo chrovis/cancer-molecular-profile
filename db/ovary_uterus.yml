@@ -45,8 +45,7 @@
   required-markers:
     - name: NRAS
       types:
-        - p.G12X
-        - p.Q61R/K
+        - p.Q61X
 
 - type: Ovary
   subtype: Low-Grade Serous Ovarian Cancer

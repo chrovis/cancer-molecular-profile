@@ -6,8 +6,8 @@
     - name: KIT
       types:
         - p.W557_K558del
-        - p.L576P
         - p.V559G
+        - p.L576P
 
 # PMID: 29636989
 
@@ -129,8 +129,9 @@
     - name: CTNNB1
       types:
         - p.S33A/Y/C
-        - p.S37X
-        - p.S45X
+        - p.S37A/F/Y
+        - p.T41A
+        - p.S45F
 
     - name: ATM
       types:

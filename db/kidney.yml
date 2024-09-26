@@ -28,5 +28,5 @@
 
     - name: CTNNB1
       types:
-        - p.S45F
         - p.T41A
+        - p.S45F

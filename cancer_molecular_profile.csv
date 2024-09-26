@@ -66,8 +66,8 @@ Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation","CDKN2A loss, 
 Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, ATM truncation","CDKN2A loss, CDKN2B loss, MTAP loss"
 Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, BRCA1 truncation","CDKN2A loss, CDKN2B loss, MTAP loss"
 Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, BRCA2 truncation","CDKN2A loss, CDKN2B loss, MTAP loss"
-Peritoneum,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation
-Pleura,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation
+Peritoneum,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation loss
+Pleura,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation loss
 Prostate,Adenocarcinoma,"AR amplification, TP53 truncation, PTEN truncation","PIK3CA p.E545K p.H1047R, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
 Prostate,Adenocarcinoma,ATM truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
 Prostate,Adenocarcinoma,BRCA1 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
@@ -75,7 +75,7 @@ Prostate,Adenocarcinoma,BRCA2 truncation,"HRD-High, AR amplification, TP53 trunc
 Prostate,Adenocarcinoma,CDK12 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
 Prostate,Adenocarcinoma,"TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation","AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss, SPOP p.F133C/L/V"
 Salivary Gland,Adenoid Cystic Carcinoma,MYB-NFIB fusion,"TP53 truncation, NOTCH1 truncation"
-Salivary Gland,Mucoepidermoid Carcinoma,"HRAS p.G12V, PIK3CA p.E542K p.E545K p.H1047R","TP53 truncation,  loss,  loss"
+Salivary Gland,Mucoepidermoid Carcinoma,"HRAS p.G12V, PIK3CA p.E542K p.E545K p.H1047R","TP53 truncation, CDKN2A loss, CDKN2B loss"
 Salivary Gland,Salivary Duct Carcinoma,"ERBB2 amplification, CDK12 amplification, TP53 truncation",CDKN2A loss
 Salivary Gland,Salivary Duct Carcinoma,"HRAS amplification, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, CDKN2A loss"
 Salivary Gland,Salivary Duct Carcinoma,"NF1 truncation, TP53 truncation",CDKN2A loss

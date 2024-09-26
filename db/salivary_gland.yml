@@ -100,10 +100,10 @@
       types:
         - truncation
 
-    - nema: CDKN2A
+    - name: CDKN2A
       types:
         - loss
 
-    - nema: CDKN2B
+    - name: CDKN2B
       types:
         - loss

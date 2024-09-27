@@ -59,8 +59,8 @@ Total: 114 cases
 | Brain | Glioblastoma, IDH-wildtype | ATRX truncation, TP53 truncation | PTEN truncation, NF1 truncation, EGFR amplification, RB1 truncation |
 | Brain | Medulloblastoma | CTNNB1 p.S33A/C/F/Y p.S37A/F/Y | TP53 truncation, DDX3X p.T275M p.G302V p.R326C p.R351W p.M380I, KMT2D truncation, CREBBP truncation |
 | Brain | Medulloblastoma | PTCH1 truncation | TP53 truncation, DDX3X p.T275M p.G302V p.R326C p.R351W p.M380I, TERT c.−124C>T, KMT2D truncation, CREBBP truncation |
-| Brain | Oligodendroglioma, IDH-mutant and 1p/19q-codeleted | IDH1 p.R132H/C/G, 1p loss, 19q loss | TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p R202W p.R215W/Q truncation |
-| Brain | Oligodendroglioma, IDH-mutant and 1p/19q-codeleted | IDH2 p.R172K/S, 1p loss, 19q loss | TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p R202W p.R215W/Q truncation |
+| Brain | Oligodendroglioma, IDH-mutant and 1p/19q-codeleted | IDH1 p.R132H/C/G, 1p loss, 19q loss | TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p.R202W p.R215W/Q truncation |
+| Brain | Oligodendroglioma, IDH-mutant and 1p/19q-codeleted | IDH2 p.R172K/S, 1p loss, 19q loss | TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p.R202W p.R215W/Q truncation |
 | Breast | Breast Invasive Ductal Carcinoma | ESR1 p.Y537S p.D538G amplification, PIK3CA p.E545K p.H1047R | TP53 truncation, MAP3K1 truncation, ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss |
 | Breast | Breast Invasive Ductal Carcinoma | ERBB2 amplification p.S310F, TP53 truncation | FGFR1 amplification, MAP3K1 truncation, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss |
 | Breast | Breast Invasive Ductal Carcinoma | TP53 truncation, ATM truncation | ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss |

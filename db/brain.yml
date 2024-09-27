@@ -97,7 +97,7 @@
 
     - name: CIC
       types:
-        - p R202W
+        - p.R202W
         - p.R215W/Q
         - truncation
 
@@ -137,7 +137,7 @@
 
     - name: CIC
       types:
-        - p R202W
+        - p.R202W
         - p.R215W/Q
         - truncation
 

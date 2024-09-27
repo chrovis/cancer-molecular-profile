@@ -11,6 +11,12 @@
       types:
         - truncation
 
+  optional-markers:
+    - name: NF2
+      types:
+        - truncation
+        - loss
+
 # PMID: 26928227
 
 - type: Peritoneum
@@ -23,3 +29,9 @@
     - name: TP53
       types:
         - truncation
+
+  optional-markers:
+    - name: NF2
+      types:
+        - truncation
+        - loss

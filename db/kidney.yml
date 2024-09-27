@@ -14,11 +14,6 @@
         - truncation
         - loss
 
-  optional-markers:
-    - name: TP53
-      types:
-        - truncation
-
 - type: Kidney
   subtype: Wilms Tumor
   required-markers:
@@ -33,5 +28,5 @@
 
     - name: CTNNB1
       types:
-        - p.S33A/C/F/Y
-        - p.S37A/F/Y
+        - p.T41A
+        - p.S45F

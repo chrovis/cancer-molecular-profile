@@ -12,7 +12,7 @@
   required-markers:
     - name: IDH1
       types:
-        - p.R132C/G/H/L/S
+        - p.R132C
 
     - name: TP53
       types:
@@ -44,7 +44,6 @@
   required-markers:
     - name: IDH2
       types:
-        - p.R140Q/W
         - p.R172G/K/M/S/W
 
     - name: TP53
@@ -52,6 +51,10 @@
         - truncation
 
   optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
     - name: CDKN2A
       types:
         - loss
@@ -84,6 +87,10 @@
         - truncation
 
   optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
     - name: CDKN2A
       types:
         - loss
@@ -103,7 +110,7 @@
 - type: Biliary Tract
   subtype: Cholangiocarcinoma
   required-markers:
-    - name: FGFR2-TACC3
+    - name: FGFR2-BICC1
       types:
         - fusion
 
@@ -112,6 +119,42 @@
         - truncation
 
   optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+    - name: ARID1A
+      types:
+        - truncation
+
+- type: Biliary Tract
+  subtype: Cholangiocarcinoma
+  required-markers:
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: BAP1
+      types:
+        - truncation
+
     - name: CDKN2A
       types:
         - loss
@@ -167,6 +210,7 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -207,6 +251,7 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -246,5 +291,6 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R

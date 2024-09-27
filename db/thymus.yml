@@ -18,8 +18,3 @@
     - name: CDKN2B
       types:
         - loss
-
-  optional-markers:
-    - name: KIT
-      types:
-        - p.N822K

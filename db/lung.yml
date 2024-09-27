@@ -26,7 +26,9 @@
   optional-markers:
     - name: KEAP1
       types:
-        - truncation
+        - p.V155F
+        - p.R320Q
+        - p.R470C
 
     - name: SETD2
       types:
@@ -54,7 +56,9 @@
   optional-markers:
     - name: KEAP1
       types:
-        - truncation
+        - p.V155F
+        - p.R320Q
+        - p.R470C
 
     - name: SETD2
       types:
@@ -82,7 +86,9 @@
   optional-markers:
     - name: KEAP1
       types:
-        - truncation
+        - p.V155F
+        - p.R320Q
+        - p.R470C
 
     - name: SETD2
       types:
@@ -110,7 +116,9 @@
   optional-markers:
     - name: KEAP1
       types:
-        - truncation
+        - p.V155F
+        - p.R320Q
+        - p.R470C
 
     - name: SETD2
       types:
@@ -138,7 +146,9 @@
   optional-markers:
     - name: KEAP1
       types:
-        - truncation
+        - p.V155F
+        - p.R320Q
+        - p.R470C
 
     - name: SETD2
       types:
@@ -166,7 +176,9 @@
   optional-markers:
     - name: KEAP1
       types:
-        - truncation
+        - p.V155F
+        - p.R320Q
+        - p.R470C
 
     - name: SETD2
       types:
@@ -199,10 +211,13 @@
       types:
         - p.E545K
         - p.H1047R
+        - amplification
 
     - name: KEAP1
       types:
-        - truncation
+        - p.V155F
+        - p.R320Q
+        - p.R470C
 
 - type: Lung
   subtype: Small Cell Lung Cancer

@@ -49,7 +49,7 @@
 
     - name: NRAS
       types:
-        - p.G12X
+        - p.Q61X
 
     - name: SMAD4
       types:

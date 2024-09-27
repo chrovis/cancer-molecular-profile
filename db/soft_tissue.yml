@@ -6,6 +6,7 @@
     - name: KIT
       types:
         - p.W557_K558del
+        - p.V559G
         - p.L576P
 
 # PMID: 29636989
@@ -107,6 +108,7 @@
 
     - name: PTEN
       types:
+        - loss
         - truncation
 
     - name: MAP2K4
@@ -127,6 +129,9 @@
     - name: CTNNB1
       types:
         - p.S33A/Y/C
+        - p.S37A/F/Y
+        - p.T41A
+        - p.S45F
 
     - name: ATM
       types:
@@ -181,7 +186,7 @@
   required-markers:
     - name: NRAS
       types:
-        - p.G12X
+        - p.Q61X
 
     - name: 11p15
       types:
@@ -207,3 +212,21 @@
     - name: TP53
       types:
         - loss
+
+# Paraganglioma
+
+- type: Soft Tissue
+  subtype: Paraganglioma
+  required-markers:
+    - name: SDHB
+      types:
+        - loss  # germline
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
+    - name: ATRX
+      types:
+        - truncation

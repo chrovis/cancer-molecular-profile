@@ -30,20 +30,32 @@
 
     - name: CDK12
       types:
-        - truncation
+        - amplification
 
-  optional-markers:
     - name: TP53
       types:
         - truncation
 
-    - name: NF1
+  optional-markers:
+    - name: CDKN2A
       types:
-        - p.K1444E
-        - p.R1276P
+        - loss
 
+- type: Salivary Gland
+  subtype: Salivary Duct Carcinoma
+  required-markers:
+    - name: HRAS
+      types:
+        - p.Q61X
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -52,13 +64,46 @@
         - loss
 
 - type: Salivary Gland
+  subtype: Salivary Duct Carcinoma
+  required-markers:
+    - name: NF1
+      types:
+        - truncation
+
+    - name: TP53
+      types:
+        - truncation
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+
+# PMID: 28327999
+
+- type: Salivary Gland
   subtype: Mucoepidermoid Carcinoma
   required-markers:
     - name: HRAS
       types:
-        - p.G12V
+        - p.Q61X
+
+    - name: PIK3CA
+      types:
+        - p.E542K
+        - p.E545K
+        - p.H1047R
 
   optional-markers:
     - name: TP53
       types:
         - truncation
+
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss

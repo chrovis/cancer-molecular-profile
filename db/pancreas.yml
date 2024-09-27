@@ -5,30 +5,6 @@
 # PMID: 30836094 (A review for ductal adenocarcinoma)
 
 - type: Pancreas
-  subtype: Pancreatic Adenocarcinoma
-  required-markers:
-    - name: KRAS
-      types:
-        - p.G12X
-
-    - name: TP53
-      types:
-        - truncation
-
-  optional-markers:
-    - name: CDKN2A
-      types:
-        - loss
-
-    - name: CDKN2B
-      types:
-        - loss
-
-    - name: MTAP
-      types:
-        - loss
-
-- type: Pancreas
   subtype: Intraductal Papillary Mucinous Neoplasm
   required-markers:
     - name: KRAS
@@ -42,6 +18,17 @@
     - name: GNAS
       types:
         - p.R201C/H
+
+- type: Pancreas
+  subtype: Pancreatic Adenocarcinoma
+  required-markers:
+    - name: KRAS
+      types:
+        - p.G12X
+
+    - name: TP53
+      types:
+        - truncation
 
   optional-markers:
     - name: CDKN2A

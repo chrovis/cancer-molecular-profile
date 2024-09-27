@@ -33,11 +33,6 @@
       types:
         - p.V600E
 
-    - name: NF1
-      types:
-        - p.K1444E
-        - p.R1276P
-
     - name: EGFR
       types:
         - amplification
@@ -48,7 +43,6 @@
     - name: IDH2
       types:
         - p.R172K/S
-        - p.R140Q
 
     - name: TP53
       types:
@@ -62,11 +56,6 @@
     - name: BRAF
       types:
         - p.V600E
-
-    - name: NF1
-      types:
-        - p.K1444E
-        - p.R1276P
 
     - name: EGFR
       types:
@@ -98,11 +87,18 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
     - name: NOTCH1
       types:
+        - truncation
+
+    - name: CIC
+      types:
+        - p.R202W
+        - p.R215W/Q
         - truncation
 
 - type: Brain
@@ -111,7 +107,6 @@
     - name: IDH2
       types:
         - p.R172K/S
-        - p.R140Q
 
     - name: 1p
       types:
@@ -132,11 +127,18 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
     - name: NOTCH1
       types:
+        - truncation
+
+    - name: CIC
+      types:
+        - p.R202W
+        - p.R215W/Q
         - truncation
 
 - type: Brain
@@ -157,8 +159,7 @@
   optional-markers:
     - name: NF1
       types:
-        - p.K1444E
-        - p.R1276P
+        - truncation
 
     - name: RB1
       types:
@@ -186,14 +187,14 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
   optional-markers:
     - name: NF1
       types:
-        - p.K1444E
-        - p.R1276P
+        - truncation
 
     - name: RB1
       types:
@@ -222,6 +223,7 @@
   optional-markers:
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -264,8 +266,7 @@
 
     - name: NF1
       types:
-        - p.K1444E
-        - p.R1276P
+        - truncation
 
     - name: EGFR
       types:
@@ -302,8 +303,7 @@
 
     - name: NF1
       types:
-        - p.K1444E
-        - p.R1276P
+        - truncation
 
     - name: EGFR
       types:
@@ -330,7 +330,6 @@
     - name: H3-3A
       types:
         - p.K28M
-        - p.G35R/V
 
     - name: TP53
       types:
@@ -339,6 +338,7 @@
   optional-markers:
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -358,18 +358,6 @@
       types:
         - truncation
 
-    - name: BRAF
-      types:
-        - p.V600E
-
-    - name: NRAS
-      types:
-        - p.G12X
-
-    - name: KRAS
-      types:
-        - p.G12X
-
 - type: Brain
   subtype: Medulloblastoma
   required-markers:
@@ -385,7 +373,11 @@
 
     - name: DDX3X
       types:
-        - truncation
+        - p.T275M
+        - p.G302V
+        - p.R326C
+        - p.R351W
+        - p.M380I
 
     - name: KMT2D
       types:
@@ -409,7 +401,11 @@
 
     - name: DDX3X
       types:
-        - truncation
+        - p.T275M
+        - p.G302V
+        - p.R326C
+        - p.R351W
+        - p.M380I
 
     - name: TERT
       types:

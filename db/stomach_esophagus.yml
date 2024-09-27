@@ -106,7 +106,7 @@
 
     - name: RHOA
       types:
-        - p.G17A/E/V
+        - p.Y42C/S
 
   optional-markers:
     - name: CLDN18-ARHGAP26
@@ -210,6 +210,10 @@
         - p.R34G/L
         - p.E79K/Q
 
+    - name: KMT2D
+      types:
+        - truncation
+
     - name: PTEN
       types:
         - truncation
@@ -225,6 +229,10 @@
       types:
         - truncation
 
+    - name: KMT2D
+      types:
+        - truncation
+
     - name: PTEN
       types:
         - truncation
@@ -237,6 +245,10 @@
         - truncation
   optional-markers:
     - name: CDKN2A
+      types:
+        - truncation
+
+    - name: KMT2D
       types:
         - truncation
 

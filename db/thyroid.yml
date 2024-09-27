@@ -33,14 +33,22 @@
   required-markers:
     - name: NRAS
       types:
-        - p.Q61R
+        - p.Q61X
 
   optional-markers:
     - name: TP53
       types:
         - truncation
 
-    - name: PTEN
+- type: Thyroid
+  subtype: Follicular Carcinoma
+  required-markers:
+    - name: PAX8-PPARG
+      types:
+        - fusion
+
+  optional-markers:
+    - name: TP53
       types:
         - truncation
 

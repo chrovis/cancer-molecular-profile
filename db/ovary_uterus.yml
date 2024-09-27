@@ -45,14 +45,7 @@
   required-markers:
     - name: NRAS
       types:
-        - p.G12X
-
-- type: Ovary
-  subtype: Low-Grade Serous Ovarian Cancer
-  required-markers:
-    - name: NF1
-      types:
-        - truncation
+        - p.Q61X
 
 - type: Ovary
   subtype: Low-Grade Serous Ovarian Cancer
@@ -92,6 +85,7 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -103,6 +97,8 @@
       types:
         - p.S33A/C/F/Y
         - p.S37A/F/Y
+        - p.T41A
+        - p.S45F
 
 - type: Uterus
   subtype: Uterine Endometrioid Carcinoma
@@ -113,6 +109,7 @@
 
     - name: PIK3CA
       types:
+        - p.E542K
         - p.E545K
         - p.H1047R
 
@@ -144,6 +141,8 @@
       types:
         - p.S33A/C/F/Y
         - p.S37A/F/Y
+        - p.T41A
+        - p.S45F
 
     - name: KRAS
       types:
@@ -151,13 +150,16 @@
 
     - name: PPP2R1A
       types:
-        - truncation
+        - p.P179L/R
+        - p.R183G/P/Q/W
 
-# Endometrial Stromal Sarcomaを追加
+# Endometrial Stromal Sarcoma
+
 # PMID: 26429873
 # PMID: 30149610
 
 # Low grade
+
 - type: Uterus
   subtype: Endometrial Stromal Sarcoma
   required-markers:
@@ -166,11 +168,7 @@
         - fusion
 
   optional-markers:
-    - name: PMS2
-      types:
-        - loss
-
-    - name: PTEN
+    - name: CDKN2A
       types:
         - loss
 
@@ -188,7 +186,7 @@
       types:
         - loss
 
-    - name: CDH1
+    - name: CDKN2A
       types:
         - loss
 
@@ -203,7 +201,7 @@
 - type: Uterus
   subtype: Endometrial Stromal Sarcoma
   required-markers:
-    - name: YWHAE-NUTM2B
+    - name: ZC3H7B-BCOR
       types:
         - fusion
 
@@ -212,7 +210,7 @@
       types:
         - loss
 
-    - name: CDH1
+    - name: CDKN2A
       types:
         - loss
 

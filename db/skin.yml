@@ -11,9 +11,56 @@
       types:
         - p.V600E/K
 
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
+- type: Skin
+  subtype: Melanoma
+  required-markers:
+    - name: NRAS
+      types:
+        - p.Q61X
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss
+
 - type: Skin
   subtype: Melanoma
   required-markers:
     - name: KIT
       types:
+        - p.L576P
         - p.K642E
+
+  optional-markers:
+    - name: CDKN2A
+      types:
+        - loss
+
+    - name: CDKN2B
+      types:
+        - loss
+
+    - name: MTAP
+      types:
+        - loss

@@ -54,6 +54,7 @@
     - name: BAP1
       types:
         - truncation
+        - loss
 
     - name: CDKN2A
       types:
@@ -70,10 +71,6 @@
     - name: ARID1A
       types:
         - truncation
-
-    - name: BAP1
-      types:
-        - loss
 
 - type: Biliary Tract
   subtype: Cholangiocarcinoma

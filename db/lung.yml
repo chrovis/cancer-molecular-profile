@@ -26,9 +26,8 @@
   optional-markers:
     - name: KEAP1
       types:
-        - p.V155F
-        - p.R320Q
-        - p.R470C
+        - loss-of-function missense mutation
+        - truncation
 
     - name: SETD2
       types:
@@ -56,9 +55,8 @@
   optional-markers:
     - name: KEAP1
       types:
-        - p.V155F
-        - p.R320Q
-        - p.R470C
+        - loss-of-function missense mutation
+        - truncation
 
     - name: SETD2
       types:
@@ -86,9 +84,8 @@
   optional-markers:
     - name: KEAP1
       types:
-        - p.V155F
-        - p.R320Q
-        - p.R470C
+        - loss-of-function missense mutation
+        - truncation
 
     - name: SETD2
       types:
@@ -116,9 +113,8 @@
   optional-markers:
     - name: KEAP1
       types:
-        - p.V155F
-        - p.R320Q
-        - p.R470C
+        - loss-of-function missense mutation
+        - truncation
 
     - name: SETD2
       types:
@@ -146,9 +142,8 @@
   optional-markers:
     - name: KEAP1
       types:
-        - p.V155F
-        - p.R320Q
-        - p.R470C
+        - loss-of-function missense mutation
+        - truncation
 
     - name: SETD2
       types:
@@ -176,9 +171,8 @@
   optional-markers:
     - name: KEAP1
       types:
-        - p.V155F
-        - p.R320Q
-        - p.R470C
+        - loss-of-function missense mutation
+        - truncation
 
     - name: SETD2
       types:
@@ -215,9 +209,8 @@
 
     - name: KEAP1
       types:
-        - p.V155F
-        - p.R320Q
-        - p.R470C
+        - loss-of-function missense mutation
+        - truncation
 
 - type: Lung
   subtype: Small Cell Lung Cancer

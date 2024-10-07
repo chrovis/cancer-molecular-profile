@@ -28,7 +28,7 @@ Total: 114 cases
 | Adrenal Gland | Pheochromocytoma | SDHB loss | TP53 truncation, ATRX truncation, HRAS p.Q61X |
 | Adrenal Gland | Pheochromocytoma | RET p.C634R p.M918T | TP53 truncation, ATRX truncation |
 | Biliary Tract | Cholangiocarcinoma | IDH1 p.R132C, TP53 truncation | CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation, BAP1 loss |
-| Biliary Tract | Cholangiocarcinoma | IDH2 p.R172G/K/M/S/W, TP53 truncation | BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation, BAP1 loss |
+| Biliary Tract | Cholangiocarcinoma | IDH2 p.R172G/K/M/S/W, TP53 truncation | BAP1 truncation loss, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation |
 | Biliary Tract | Cholangiocarcinoma | ERBB2 amplification, TP53 truncation | BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation |
 | Biliary Tract | Cholangiocarcinoma | FGFR2-BICC1 fusion, TP53 truncation | BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation |
 | Biliary Tract | Cholangiocarcinoma | KRAS p.G12X, TP53 truncation | BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation |
@@ -72,16 +72,16 @@ Total: 114 cases
 | Esophagus | Squamous Cell Carcinoma | TP53 truncation | NFE2L2 p.R34G/L p.E79K/Q, KMT2D truncation, PTEN truncation |
 | Esophagus | Squamous Cell Carcinoma | TP53 truncation | NOTCH1 truncation, KMT2D truncation, PTEN truncation |
 | Esophagus | Squamous Cell Carcinoma | TP53 truncation | CDKN2A truncation, KMT2D truncation, PTEN truncation |
-| Kidney | Renal Cell Carcinoma | VHL truncation loss |  |
+| Kidney | Renal Cell Carcinoma | VHL truncation loss | TP53 truncation |
 | Kidney | Wilms Tumor | WT1 loss | TP53 truncation, CTNNB1 p.T41A p.S45F |
-| Lung | Lung Adenocarcinoma | EGFR p.L858R exon 19 deletion exon 20 insertion, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
-| Lung | Lung Adenocarcinoma | KRAS p.G12X, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
-| Lung | Lung Adenocarcinoma | MET exon 14 skipping, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
-| Lung | Lung Adenocarcinoma | EML4-ALK fusion, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
-| Lung | Lung Adenocarcinoma | KIF5B-RET fusion, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
-| Lung | Lung Adenocarcinoma | GOPC-ROS1 fusion, STK11 truncation, TP53 truncation | KEAP1 p.V155F p.R320Q p.R470C, SETD2 truncation, ARID1A truncation |
+| Lung | Lung Adenocarcinoma | EGFR p.L858R exon 19 deletion exon 20 insertion, STK11 truncation, TP53 truncation | KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation |
+| Lung | Lung Adenocarcinoma | KRAS p.G12X, STK11 truncation, TP53 truncation | KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation |
+| Lung | Lung Adenocarcinoma | MET exon 14 skipping, STK11 truncation, TP53 truncation | KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation |
+| Lung | Lung Adenocarcinoma | EML4-ALK fusion, STK11 truncation, TP53 truncation | KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation |
+| Lung | Lung Adenocarcinoma | KIF5B-RET fusion, STK11 truncation, TP53 truncation | KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation |
+| Lung | Lung Adenocarcinoma | GOPC-ROS1 fusion, STK11 truncation, TP53 truncation | KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation |
 | Lung | Small Cell Lung Cancer | RB1 truncation, TP53 truncation |  |
-| Lung | Squamous Cell Carcinoma | NFE2L2 p.R34G p.R34L p.E79K p.E79Q, TP53 truncation | CDKN2A loss, PIK3CA p.E545K p.H1047R amplification, KEAP1 p.V155F p.R320Q p.R470C |
+| Lung | Squamous Cell Carcinoma | NFE2L2 p.R34G p.R34L p.E79K p.E79Q, TP53 truncation | CDKN2A loss, PIK3CA p.E545K p.H1047R amplification, KEAP1 loss-of-function missense mutation truncation |
 | Ovary | Clear Cell Ovarian Cancer | ARID1A truncation, PIK3CA p.E545K p.H1047R | TP53 truncation |
 | Ovary | High-Grade Serous Ovarian Cancer | TP53 truncation, HRD-High | BRCA1 truncation |
 | Ovary | High-Grade Serous Ovarian Cancer | TP53 truncation, HRD-High | BRCA2 truncation |
@@ -102,7 +102,7 @@ Total: 114 cases
 | Prostate | Adenocarcinoma | CDK12 truncation | HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss |
 | Prostate | Adenocarcinoma | TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation | AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss, SPOP p.F133C/L/V |
 | Salivary Gland | Adenoid Cystic Carcinoma | MYB-NFIB fusion | TP53 truncation, NOTCH1 truncation |
-| Salivary Gland | Mucoepidermoid Carcinoma | HRAS p.Q61X, PIK3CA p.E542K p.E545K p.H1047R | TP53 truncation, CDKN2A loss, CDKN2B loss |
+| Salivary Gland | Mucoepidermoid Carcinoma | HRAS p.G12V, PIK3CA p.E542K p.E545K p.H1047R | TP53 truncation, CDKN2A loss, CDKN2B loss |
 | Salivary Gland | Salivary Duct Carcinoma | ERBB2 amplification, CDK12 amplification, TP53 truncation | CDKN2A loss |
 | Salivary Gland | Salivary Duct Carcinoma | HRAS p.Q61X, TP53 truncation | PIK3CA p.E542K p.E545K p.H1047R, CDKN2A loss |
 | Salivary Gland | Salivary Duct Carcinoma | NF1 truncation, TP53 truncation | CDKN2A loss |

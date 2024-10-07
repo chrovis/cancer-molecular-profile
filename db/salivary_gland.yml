@@ -87,7 +87,8 @@
   required-markers:
     - name: HRAS
       types:
-        - p.Q61X
+        # NOTE https://cancer.sanger.ac.uk/cosmic/gene/analysis?all_data=n&hn=carcinoma&in=t&ln=HRAS&sh=mucoepidermoid_carcinoma&sn=salivary_gland&src=tissue&ss=all&wgs=off
+        - p.G12V
 
     - name: PIK3CA
       types:

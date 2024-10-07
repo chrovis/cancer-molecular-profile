@@ -14,6 +14,11 @@
         - truncation
         - loss
 
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
 - type: Kidney
   subtype: Wilms Tumor
   required-markers:

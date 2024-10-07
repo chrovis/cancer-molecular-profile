@@ -136,9 +136,9 @@ Total: 114 cases
 | Uterus | Endometrial Stromal Sarcoma | JAZF1-SUZ12 fusion | CDKN2A loss |
 | Uterus | Endometrial Stromal Sarcoma | YWHAE-NUTM2A fusion | 16q loss, CDKN2A loss, TP53 loss, RB1 loss |
 | Uterus | Endometrial Stromal Sarcoma | ZC3H7B-BCOR fusion | 16q loss, CDKN2A loss, TP53 loss, RB1 loss |
-| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F |  |
-| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, KRAS p.G12X |  |
-| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3R1 truncation, ARID1A truncation | CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F, KRAS p.G12X, PPP2R1A p.P179L/R p.R183G/P/Q/W |
+| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F | TP53 truncation |
+| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, KRAS p.G12X | TP53 truncation |
+| Uterus | Uterine Endometrioid Carcinoma | PTEN truncation, PIK3R1 truncation, ARID1A truncation | CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F, KRAS p.G12X, PPP2R1A p.P179L/R p.R183G/P/Q/W, TP53 truncation |
 
 ## Count of Profiles by Tissue Type
 

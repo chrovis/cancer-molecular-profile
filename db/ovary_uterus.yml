@@ -100,6 +100,11 @@
         - p.T41A
         - p.S45F
 
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
+
 - type: Uterus
   subtype: Uterine Endometrioid Carcinoma
   required-markers:
@@ -120,6 +125,11 @@
     - name: KRAS
       types:
         - p.G12X
+
+  optional-markers:
+    - name: TP53
+      types:
+        - truncation
 
 - type: Uterus
   subtype: Uterine Endometrioid Carcinoma
@@ -152,6 +162,10 @@
       types:
         - p.P179L/R
         - p.R183G/P/Q/W
+
+    - name: TP53
+      types:
+        - truncation
 
 # Endometrial Stromal Sarcoma
 

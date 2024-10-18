@@ -97,8 +97,8 @@
 
     - name: CIC
       types:
-        - p.R202W
-        - p.R215W/Q
+        - p.R1111W
+        - p.R1124W/Q
         - truncation
 
 - type: Brain
@@ -137,8 +137,8 @@
 
     - name: CIC
       types:
-        - p.R202W
-        - p.R215W/Q
+        - p.R1111W
+        - p.R1124W/Q
         - truncation
 
 - type: Brain

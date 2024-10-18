@@ -214,7 +214,7 @@
   required-markers:
     - name: TERT
       types:
-        - c.−124C>T
+        - c.-124C>T
 
     - name: TP53
       types:
@@ -253,7 +253,7 @@
   required-markers:
     - name: TERT
       types:
-        - c.−124C>T
+        - c.-124C>T
 
     - name: TP53
       types:
@@ -411,7 +411,7 @@
 
     - name: TERT
       types:
-        - c.−124C>T
+        - c.-124C>T
 
     - name: KMT2D
       types:

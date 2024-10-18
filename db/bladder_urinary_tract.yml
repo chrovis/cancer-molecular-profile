@@ -21,7 +21,7 @@
 
     - name: TERT
       types:
-        - c.−124C>T
+        - c.-124C>T
 
     - name: PIK3CA
       types:
@@ -54,7 +54,7 @@
 
     - name: TERT
       types:
-        - c.−124C>T
+        - c.-124C>T
 
     - name: PIK3CA
       types:
@@ -91,7 +91,7 @@
 
     - name: TERT
       types:
-        - c.−124C>T
+        - c.-124C>T
 
     - name: PIK3CA
       types:

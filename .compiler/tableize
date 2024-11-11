@@ -2,6 +2,7 @@
 
 (ns tableize-cases
   (:require [clj-yaml.core :as yaml]
+            [cheshire.core :as json]
             [clojure.string :as string]
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]))
@@ -18,18 +19,6 @@
   [f]
   (yaml/parse-string (slurp f)))
 
-(def all-cases
-  (let [files (map #(.getName %) (.listFiles (io/file "db")))]
-    (mapcat #(load-yaml (io/file "db" %)) files)))
-
-(defn serialize-markers
-  [mrkrs]
-  (string/join ", "
-               (map (fn [m]
-                      (str (:name m) (when (:types m)
-                                       (str " " (string/join " " (:types m))))))
-                    mrkrs)))
-
 (defn- sha1
   [s]
   (let [hashed (.digest (java.security.MessageDigest/getInstance "SHA-1")
@@ -40,21 +29,34 @@
         (print (format "%02x" byte)))) ; prefer lower case :)
     (str sw)))
 
-(defn hash
+(defn- hash
   [c]
   (subs (sha1 (pr-str c)) 0 8))
 
+(def all-cases
+  (let [files (map #(.getName %) (.listFiles (io/file "db")))]
+    (->> files
+         (mapcat #(load-yaml (io/file "db" %)))
+         (map (fn [c]
+                (assoc c :id (hash c))))
+         (sort-by (juxt :type :subtype :id)))))
+
+(defn serialize-markers
+  [mrkrs]
+  (string/join ", "
+               (map (fn [m]
+                      (str (:name m) (when (:types m)
+                                       (str " " (string/join " " (:types m))))))
+                    mrkrs)))
+
 (def all-cases-table
-  (sort-by (juxt #(nth % 0)
-                 #(nth % 1)
-                 #(nth % 4))
-           (map (fn [c]
-                  (map format-string [(:type c)
-                                      (:subtype c)
-                                      (serialize-markers (:required-markers c))
-                                      (serialize-markers (:optional-markers c))
-                                      (hash c)]))
-                all-cases)))
+  (map (fn [c]
+         (map format-string [(:type c)
+                             (:subtype c)
+                             (serialize-markers (:required-markers c))
+                             (serialize-markers (:optional-markers c))
+                             (:id c)]))
+       all-cases))
 
 (defn make-row
   [xs]
@@ -90,3 +92,6 @@
 ;; generate CSV table
 (with-open [wtr (io/writer "cancer_molecular_profile.csv")]
   (csv/write-csv wtr all-cases-table))
+
+;; generate machine readable JSON
+(spit "cancer_molecular_profile.json" (json/generate-string all-cases))

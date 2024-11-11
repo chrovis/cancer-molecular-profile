@@ -6,7 +6,7 @@
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]))
 
-(def header ["Tissue" "Subtype" "Representative Gene Variants or Biomarkers" "Other Gene Variants or Biomarkers"])
+(def header ["Tissue" "Subtype" "Representative Gene Variants or Biomarkers" "Other Gene Variants or Biomarkers" "Hash"])
 
 (defn format-string
   [s]
@@ -30,13 +30,30 @@
                                        (str " " (string/join " " (:types m))))))
                     mrkrs)))
 
+(defn- sha1
+  [s]
+  (let [hashed (.digest (java.security.MessageDigest/getInstance "SHA-1")
+                        (.getBytes s))
+        sw (java.io.StringWriter.)]
+    (binding [*out* sw]
+      (doseq [byte hashed]
+        (print (format "%02x" byte)))) ; prefer lower case :)
+    (str sw)))
+
+(defn hash
+  [c]
+  (subs (sha1 (pr-str c)) 0 8))
+
 (def all-cases-table
-  (sort-by (juxt first second)
+  (sort-by (juxt #(nth % 0)
+                 #(nth % 1)
+                 #(nth % 4))
            (map (fn [c]
                   (map format-string [(:type c)
                                       (:subtype c)
                                       (serialize-markers (:required-markers c))
-                                      (serialize-markers (:optional-markers c))]))
+                                      (serialize-markers (:optional-markers c))
+                                      (hash c)]))
                 all-cases)))
 
 (defn make-row
@@ -46,9 +63,9 @@
 (defn tableize
   []
   (string/join "\n"
-               (concat [(make-row header)
-                        (make-row (repeat (count header) "---"))]
-                       (map make-row all-cases-table))))
+               (concat [(make-row (drop-last header))
+                        (make-row (repeat (count (drop-last header)) "---"))]
+                       (map make-row (map drop-last all-cases-table)))))
 
 (defn total
   []

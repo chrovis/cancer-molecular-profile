@@ -1,3 +1,4 @@
+Tissue,Subtype,Representative Gene Variants or Biomarkers,Other Gene Variants or Biomarkers,Hash
 Adrenal Gland,Pheochromocytoma,SDHB loss,"TP53 truncation, ATRX truncation, HRAS p.Q61X",6f9ae29c
 Adrenal Gland,Pheochromocytoma,RET p.C634R p.M918T,"TP53 truncation, ATRX truncation",d45ba8ec
 Biliary Tract,Cholangiocarcinoma,"KRAS p.G12X, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation",1b7478d4

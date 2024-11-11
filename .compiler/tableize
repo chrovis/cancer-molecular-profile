@@ -91,7 +91,7 @@
 
 ;; generate CSV table
 (with-open [wtr (io/writer "cancer_molecular_profile.csv")]
-  (csv/write-csv wtr all-cases-table))
+  (csv/write-csv wtr (concat [header] all-cases-table)))
 
 ;; generate machine readable JSON
 (spit "cancer_molecular_profile.json" (json/generate-string all-cases))

@@ -2,11 +2,12 @@
 
 (ns tableize-cases
   (:require [clj-yaml.core :as yaml]
+            [cheshire.core :as json]
             [clojure.string :as string]
             [clojure.data.csv :as csv]
             [clojure.java.io :as io]))
 
-(def header ["Tissue" "Subtype" "Representative Gene Variants or Biomarkers" "Other Gene Variants or Biomarkers"])
+(def header ["Tissue" "Subtype" "Representative Gene Variants or Biomarkers" "Other Gene Variants or Biomarkers" "Hash"])
 
 (defn format-string
   [s]
@@ -18,9 +19,27 @@
   [f]
   (yaml/parse-string (slurp f)))
 
+(defn- sha1
+  [s]
+  (let [hashed (.digest (java.security.MessageDigest/getInstance "SHA-1")
+                        (.getBytes s))
+        sw (java.io.StringWriter.)]
+    (binding [*out* sw]
+      (doseq [byte hashed]
+        (print (format "%02x" byte)))) ; prefer lower case :)
+    (str sw)))
+
+(defn- hash
+  [c]
+  (subs (sha1 (pr-str c)) 0 8))
+
 (def all-cases
   (let [files (map #(.getName %) (.listFiles (io/file "db")))]
-    (mapcat #(load-yaml (io/file "db" %)) files)))
+    (->> files
+         (mapcat #(load-yaml (io/file "db" %)))
+         (map (fn [c]
+                (assoc c :id (hash c))))
+         (sort-by (juxt :type :subtype :id)))))
 
 (defn serialize-markers
   [mrkrs]
@@ -31,13 +50,13 @@
                     mrkrs)))
 
 (def all-cases-table
-  (sort-by (juxt first second)
-           (map (fn [c]
-                  (map format-string [(:type c)
-                                      (:subtype c)
-                                      (serialize-markers (:required-markers c))
-                                      (serialize-markers (:optional-markers c))]))
-                all-cases)))
+  (map (fn [c]
+         (map format-string [(:type c)
+                             (:subtype c)
+                             (serialize-markers (:required-markers c))
+                             (serialize-markers (:optional-markers c))
+                             (:id c)]))
+       all-cases))
 
 (defn make-row
   [xs]
@@ -46,9 +65,9 @@
 (defn tableize
   []
   (string/join "\n"
-               (concat [(make-row header)
-                        (make-row (repeat (count header) "---"))]
-                       (map make-row all-cases-table))))
+               (concat [(make-row (drop-last header))
+                        (make-row (repeat (count (drop-last header)) "---"))]
+                       (map make-row (map drop-last all-cases-table)))))
 
 (defn total
   []
@@ -72,4 +91,7 @@
 
 ;; generate CSV table
 (with-open [wtr (io/writer "cancer_molecular_profile.csv")]
-  (csv/write-csv wtr all-cases-table))
+  (csv/write-csv wtr (concat [header] all-cases-table)))
+
+;; generate machine readable JSON
+(spit "cancer_molecular_profile.json" (json/generate-string all-cases))

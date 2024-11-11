@@ -1,114 +1,115 @@
-Adrenal Gland,Pheochromocytoma,SDHB loss,"TP53 truncation, ATRX truncation, HRAS p.Q61X"
-Adrenal Gland,Pheochromocytoma,RET p.C634R p.M918T,"TP53 truncation, ATRX truncation"
-Biliary Tract,Cholangiocarcinoma,"IDH1 p.R132C, TP53 truncation","CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation, BAP1 loss"
-Biliary Tract,Cholangiocarcinoma,"IDH2 p.R172G/K/M/S/W, TP53 truncation","BAP1 truncation loss, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation"
-Biliary Tract,Cholangiocarcinoma,"ERBB2 amplification, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation"
-Biliary Tract,Cholangiocarcinoma,"FGFR2-BICC1 fusion, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation"
-Biliary Tract,Cholangiocarcinoma,"KRAS p.G12X, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation"
-Biliary Tract,Gallbladder Cancer,"ERBB2 amplification p.S310F/Y, TP53 truncation, CDKN2A loss, CDKN2B loss, SMAD4 loss truncation","ARID1A truncation, CCNE1 amplification, PIK3CA p.E542K p.E545K p.H1047R"
-Biliary Tract,Gallbladder Cancer,"ERBB2 amplification p.S310F/Y, MDM2 amplification, CDKN2A loss, CDKN2B loss, SMAD4 loss truncation","ARID1A truncation, CCNE1 amplification, PIK3CA p.E542K p.E545K p.H1047R"
-Biliary Tract,Gallbladder Cancer,"KRAS p.G12X, TP53 truncation, CDKN2A loss, CDKN2B loss, SMAD4 loss truncation","ARID1A truncation, CCNE1 amplification, PIK3CA p.E542K p.E545K p.H1047R"
-Bladder,Urothelial Carcinoma,FGFR3 p.S249C p.R248C,"TP53 truncation, TERT c.-124C>T, PIK3CA p.E545K p.H1047R, ARID1A truncation, RB1 truncation, BRAF p.V600E/K"
-Bladder,Urothelial Carcinoma,FGFR3-TACC3 fusion,"TP53 truncation, TERT c.-124C>T, PIK3CA p.E545K p.H1047R, ARID1A truncation, RB1 truncation, BRAF p.V600E/K"
-Bladder,Urothelial Carcinoma,"CDKN2A loss, CDKN2B loss","TP53 truncation, TERT c.-124C>T, PIK3CA p.E545K p.H1047R, ARID1A truncation, RB1 truncation, BRAF p.V600E/K"
-Bone,Osteosarcoma,"TP53 loss, RB1 loss","BRCA1 truncation, PTEN truncation, MYC amplification, CCNE1 amplification, CDKN2A loss, CDKN2B loss"
-Bowel,Colorectal Adenocarcinoma,"APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q, PTEN truncation"
-Bowel,Colorectal Adenocarcinoma,"APC truncation, NRAS p.Q61X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q, PTEN truncation"
-Bowel,Colorectal Adenocarcinoma,"APC truncation, BRAF p.V600E/K, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q, PTEN truncation"
-Bowel,Colorectal Adenocarcinoma,"MLH1 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K
-Bowel,Colorectal Adenocarcinoma,"MSH2 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K
-Bowel,Colorectal Adenocarcinoma,"MSH6 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K
-Bowel,Colorectal Adenocarcinoma,"PMS2 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K
-Bowel,Colorectal Adenocarcinoma,"EPCAM truncation, APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q"
-Bowel,Colorectal Adenocarcinoma,"MUTYH truncation, APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q"
-Brain,"Astrocytoma, IDH-mutant","IDH1 p.R132C/G/H/L/S, TP53 truncation","PTEN truncation, BRAF p.V600E, EGFR amplification"
-Brain,"Astrocytoma, IDH-mutant","IDH2 p.R172K/S, TP53 truncation","PTEN truncation, BRAF p.V600E, EGFR amplification"
-Brain,Atypical Teratoid/Rhabdoid Tumor,SMARCB1 loss,TP53 truncation
-Brain,"Diffuse Midline Glioma, H3 K27-altered","H3-3A p.K28M, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, ATRX truncation"
-Brain,"Glioblastoma, IDH-wildtype","TP53 truncation, EGFR amplification, PTEN truncation","NF1 truncation, RB1 truncation"
-Brain,"Glioblastoma, IDH-wildtype","TP53 truncation, EGFR amplification, PIK3CA p.E542K p.E545K p.H1047R","NF1 truncation, RB1 truncation"
-Brain,"Glioblastoma, IDH-wildtype","TERT c.-124C>T, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, BRAF p.V600E, EGFR amplification, RB1 truncation"
-Brain,"Glioblastoma, IDH-wildtype","TERT c.-124C>T, TP53 truncation","PTEN truncation, NF1 truncation, EGFR amplification, RB1 truncation"
-Brain,"Glioblastoma, IDH-wildtype","ATRX truncation, TP53 truncation","PTEN truncation, NF1 truncation, EGFR amplification, RB1 truncation"
-Brain,Medulloblastoma,CTNNB1 p.S33A/C/F/Y p.S37A/F/Y,"TP53 truncation, DDX3X p.T275M p.G302V p.R326C p.R351W p.M380I, KMT2D truncation, CREBBP truncation"
-Brain,Medulloblastoma,PTCH1 truncation,"TP53 truncation, DDX3X p.T275M p.G302V p.R326C p.R351W p.M380I, TERT c.-124C>T, KMT2D truncation, CREBBP truncation"
-Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH1 p.R132H/C/G, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p.R1111W p.R1124W/Q truncation"
-Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH2 p.R172K/S, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p.R1111W p.R1124W/Q truncation"
-Breast,Breast Invasive Ductal Carcinoma,"ESR1 p.Y537S p.D538G amplification, PIK3CA p.E545K p.H1047R","TP53 truncation, MAP3K1 truncation, ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss"
-Breast,Breast Invasive Ductal Carcinoma,"ERBB2 amplification p.S310F, TP53 truncation","FGFR1 amplification, MAP3K1 truncation, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss"
-Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, ATM truncation","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss"
-Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, CHEK2 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss"
-Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, BRCA1 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss"
-Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, BRCA2 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss"
-Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, PALB2 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss"
-Breast,Breast Invasive Lobular Carcinoma,"CDH1 truncation, PIK3CA p.E545K p.H1047R","TP53 truncation, RUNX1 truncation, TBX3 truncation, PTEN loss"
-Esophagus,Squamous Cell Carcinoma,TP53 truncation,"NFE2L2 p.R34G/L p.E79K/Q, KMT2D truncation, PTEN truncation"
-Esophagus,Squamous Cell Carcinoma,TP53 truncation,"NOTCH1 truncation, KMT2D truncation, PTEN truncation"
-Esophagus,Squamous Cell Carcinoma,TP53 truncation,"CDKN2A truncation, KMT2D truncation, PTEN truncation"
-Kidney,Renal Cell Carcinoma,VHL truncation loss,TP53 truncation
-Kidney,Wilms Tumor,WT1 loss,"TP53 truncation, CTNNB1 p.T41A p.S45F"
-Lung,Lung Adenocarcinoma,"EGFR p.L858R exon 19 deletion exon 20 insertion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation"
-Lung,Lung Adenocarcinoma,"KRAS p.G12X, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation"
-Lung,Lung Adenocarcinoma,"MET exon 14 skipping, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation"
-Lung,Lung Adenocarcinoma,"EML4-ALK fusion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation"
-Lung,Lung Adenocarcinoma,"KIF5B-RET fusion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation"
-Lung,Lung Adenocarcinoma,"GOPC-ROS1 fusion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation"
-Lung,Small Cell Lung Cancer,"RB1 truncation, TP53 truncation",
-Lung,Squamous Cell Carcinoma,"NFE2L2 p.R34G p.R34L p.E79K p.E79Q, TP53 truncation","CDKN2A loss, PIK3CA p.E545K p.H1047R amplification, KEAP1 loss-of-function missense mutation truncation"
-Ovary,Clear Cell Ovarian Cancer,"ARID1A truncation, PIK3CA p.E545K p.H1047R",TP53 truncation
-Ovary,High-Grade Serous Ovarian Cancer,"TP53 truncation, HRD-High",BRCA1 truncation
-Ovary,High-Grade Serous Ovarian Cancer,"TP53 truncation, HRD-High",BRCA2 truncation
-Ovary,Low-Grade Serous Ovarian Cancer,KRAS p.G12X,
-Ovary,Low-Grade Serous Ovarian Cancer,NRAS p.Q61X,
-Ovary,Low-Grade Serous Ovarian Cancer,BRAF p.V600E/K,
-Pancreas,Intraductal Papillary Mucinous Neoplasm,"KRAS p.G12X, TP53 truncation, GNAS p.R201C/H",
-Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation","CDKN2A loss, CDKN2B loss, MTAP loss"
-Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, ATM truncation","CDKN2A loss, CDKN2B loss, MTAP loss"
-Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, BRCA1 truncation","CDKN2A loss, CDKN2B loss, MTAP loss"
-Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, BRCA2 truncation","CDKN2A loss, CDKN2B loss, MTAP loss"
-Peritoneum,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation loss
-Pleura,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation loss
-Prostate,Adenocarcinoma,"AR amplification, TP53 truncation, PTEN truncation","PIK3CA p.E545K p.H1047R, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
-Prostate,Adenocarcinoma,ATM truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
-Prostate,Adenocarcinoma,BRCA1 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
-Prostate,Adenocarcinoma,BRCA2 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
-Prostate,Adenocarcinoma,CDK12 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss"
-Prostate,Adenocarcinoma,"TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation","AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss, SPOP p.F133C/L/V"
-Salivary Gland,Adenoid Cystic Carcinoma,MYB-NFIB fusion,"TP53 truncation, NOTCH1 truncation"
-Salivary Gland,Mucoepidermoid Carcinoma,"HRAS p.G12V, PIK3CA p.E542K p.E545K p.H1047R","TP53 truncation, CDKN2A loss, CDKN2B loss"
-Salivary Gland,Salivary Duct Carcinoma,"ERBB2 amplification, CDK12 amplification, TP53 truncation",CDKN2A loss
-Salivary Gland,Salivary Duct Carcinoma,"HRAS p.Q61X, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, CDKN2A loss"
-Salivary Gland,Salivary Duct Carcinoma,"NF1 truncation, TP53 truncation",CDKN2A loss
-Skin,Melanoma,BRAF p.V600E/K,"CDKN2A loss, CDKN2B loss, MTAP loss"
-Skin,Melanoma,NRAS p.Q61X,"CDKN2A loss, CDKN2B loss, MTAP loss"
-Skin,Melanoma,KIT p.L576P p.K642E,"CDKN2A loss, CDKN2B loss, MTAP loss"
-Soft Tissue,Dedifferentiated Liposarcoma,"MDM2 amplification, CDK4 amplification",
-Soft Tissue,Ewing Sarcoma,EWSR1-FLI1 fusion,"TP53 truncation, CDKN2A loss, STAG2 truncation"
-Soft Tissue,Gastrointestinal Stromal Tumor,KIT p.W557_K558del p.V559G p.L576P,
-Soft Tissue,Leiomyosarcoma,"TP53 loss, RB1 loss","ATRX truncation, PTEN loss truncation, MAP2K4 amplification"
-Soft Tissue,Paraganglioma,SDHB loss,"TP53 truncation, ATRX truncation"
-Soft Tissue,Rhabdomyosarcoma,PAX3-FOXO1 fusion,"MYCN amplification, CDK4 amplification, 11p15 loss"
-Soft Tissue,Rhabdomyosarcoma,PAX7-FOXO1 fusion,"MYCN amplification, CDK4 amplification, 11p15 loss"
-Soft Tissue,Rhabdomyosarcoma,"NRAS p.Q61X, 11p15 loss",TP53 loss
-Soft Tissue,Rhabdomyosarcoma,"FGFR4 p.V550E/L/M, 11p15 loss",TP53 loss
-Soft Tissue,Synovial Sarcoma,SS18-SSX2 fusion,"CTNNB1 p.S33A/Y/C p.S37A/F/Y p.T41A p.S45F, ATM truncation"
-Stomach,Diffuse Type Stomach Adenocarcinoma,"CDH1 truncation, RHOA p.Y42C/S",CLDN18-ARHGAP26 fusion
-Stomach,Intestinal Type Stomach Adenocarcinoma,"PIK3CA p.E545K p.H1047R, ARID1A truncation, CD274 amplification, ERBB2 amplification",PTEN truncation
-Stomach,Intestinal Type Stomach Adenocarcinoma,"PIK3CA p.E545K p.H1047R, ARID1A truncation, CD274 amplification, EGFR amplification",PTEN truncation
-Stomach,Intestinal Type Stomach Adenocarcinoma,"MLH1 truncation, TMB-High, MSI-High","ARID1A truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, KRAS p.G12X, RNF43 truncation, TP53 truncation"
-Stomach,Intestinal Type Stomach Adenocarcinoma,"KRAS amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification"
-Stomach,Intestinal Type Stomach Adenocarcinoma,"ERBB2 amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification"
-Stomach,Intestinal Type Stomach Adenocarcinoma,"EGFR amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification"
-Stomach,Intestinal Type Stomach Adenocarcinoma,"PIK3CA amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification"
-Thymus,Thymic carcinoma,"TP53 truncation, CDKN2A loss, CDKN2B loss",
-Thyroid,Anaplastic Carcinoma,"BRAF p.V600E, TP53 truncation","CDKN2A loss, CDKN2B loss, PTEN truncation"
-Thyroid,Follicular Carcinoma,NRAS p.Q61X,TP53 truncation
-Thyroid,Follicular Carcinoma,PAX8-PPARG fusion,TP53 truncation
-Thyroid,Papillary Carcinoma,BRAF p.V600E,TP53 truncation
-Thyroid,Papillary Carcinoma,CCDC6-RET fusion,TP53 truncation
-Uterus,Endometrial Stromal Sarcoma,JAZF1-SUZ12 fusion,CDKN2A loss
-Uterus,Endometrial Stromal Sarcoma,YWHAE-NUTM2A fusion,"16q loss, CDKN2A loss, TP53 loss, RB1 loss"
-Uterus,Endometrial Stromal Sarcoma,ZC3H7B-BCOR fusion,"16q loss, CDKN2A loss, TP53 loss, RB1 loss"
-Uterus,Uterine Endometrioid Carcinoma,"PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F",TP53 truncation
-Uterus,Uterine Endometrioid Carcinoma,"PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, KRAS p.G12X",TP53 truncation
-Uterus,Uterine Endometrioid Carcinoma,"PTEN truncation, PIK3R1 truncation, ARID1A truncation","CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F, KRAS p.G12X, PPP2R1A p.P179L/R p.R183G/P/Q/W, TP53 truncation"
+Tissue,Subtype,Representative Gene Variants or Biomarkers,Other Gene Variants or Biomarkers,Hash
+Adrenal Gland,Pheochromocytoma,SDHB loss,"TP53 truncation, ATRX truncation, HRAS p.Q61X",6f9ae29c
+Adrenal Gland,Pheochromocytoma,RET p.C634R p.M918T,"TP53 truncation, ATRX truncation",d45ba8ec
+Biliary Tract,Cholangiocarcinoma,"KRAS p.G12X, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation",1b7478d4
+Biliary Tract,Cholangiocarcinoma,"ERBB2 amplification, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation",1ff7e0c3
+Biliary Tract,Cholangiocarcinoma,"FGFR2-BICC1 fusion, TP53 truncation","BAP1 truncation, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation",5e0f9e50
+Biliary Tract,Cholangiocarcinoma,"IDH1 p.R132C, TP53 truncation","CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation, BAP1 loss",8c503d98
+Biliary Tract,Cholangiocarcinoma,"IDH2 p.R172G/K/M/S/W, TP53 truncation","BAP1 truncation loss, CDKN2A loss, CDKN2B loss, MTAP loss, ARID1A truncation",cf3fcd21
+Biliary Tract,Gallbladder Cancer,"KRAS p.G12X, TP53 truncation, CDKN2A loss, CDKN2B loss, SMAD4 loss truncation","ARID1A truncation, CCNE1 amplification, PIK3CA p.E542K p.E545K p.H1047R",0ca71df5
+Biliary Tract,Gallbladder Cancer,"ERBB2 amplification p.S310F/Y, TP53 truncation, CDKN2A loss, CDKN2B loss, SMAD4 loss truncation","ARID1A truncation, CCNE1 amplification, PIK3CA p.E542K p.E545K p.H1047R",35f6293a
+Biliary Tract,Gallbladder Cancer,"ERBB2 amplification p.S310F/Y, MDM2 amplification, CDKN2A loss, CDKN2B loss, SMAD4 loss truncation","ARID1A truncation, CCNE1 amplification, PIK3CA p.E542K p.E545K p.H1047R",4cb54849
+Bladder,Urothelial Carcinoma,"CDKN2A loss, CDKN2B loss","TP53 truncation, TERT c.-124C>T, PIK3CA p.E545K p.H1047R, ARID1A truncation, RB1 truncation, BRAF p.V600E/K",baf7dde1
+Bladder,Urothelial Carcinoma,FGFR3-TACC3 fusion,"TP53 truncation, TERT c.-124C>T, PIK3CA p.E545K p.H1047R, ARID1A truncation, RB1 truncation, BRAF p.V600E/K",cfe7add3
+Bladder,Urothelial Carcinoma,FGFR3 p.S249C p.R248C,"TP53 truncation, TERT c.-124C>T, PIK3CA p.E545K p.H1047R, ARID1A truncation, RB1 truncation, BRAF p.V600E/K",eab050cc
+Bone,Osteosarcoma,"TP53 loss, RB1 loss","BRCA1 truncation, PTEN truncation, MYC amplification, CCNE1 amplification, CDKN2A loss, CDKN2B loss",bc47a6ef
+Bowel,Colorectal Adenocarcinoma,"MLH1 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K,1f2ecec0
+Bowel,Colorectal Adenocarcinoma,"APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q, PTEN truncation",339cbfcf
+Bowel,Colorectal Adenocarcinoma,"PMS2 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K,7d0e2286
+Bowel,Colorectal Adenocarcinoma,"MSH2 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K,bbbbd0e5
+Bowel,Colorectal Adenocarcinoma,"APC truncation, NRAS p.Q61X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q, PTEN truncation",cb005f5c
+Bowel,Colorectal Adenocarcinoma,"MSH6 truncation, TMB-High, MSI-High, APC truncation, SMAD4 truncation, TP53 truncation",BRAF p.V600E/K,e7298c5d
+Bowel,Colorectal Adenocarcinoma,"EPCAM truncation, APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q",ee1fb6b0
+Bowel,Colorectal Adenocarcinoma,"MUTYH truncation, APC truncation, KRAS p.G12X, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q",f9982f6d
+Bowel,Colorectal Adenocarcinoma,"APC truncation, BRAF p.V600E/K, SMAD4 truncation, TP53 truncation","EGFR amplification, ERBB2 amplification p.R678Q, PTEN truncation",f9dc12ab
+Brain,"Astrocytoma, IDH-mutant","IDH2 p.R172K/S, TP53 truncation","PTEN truncation, BRAF p.V600E, EGFR amplification",4583b7c3
+Brain,"Astrocytoma, IDH-mutant","IDH1 p.R132C/G/H/L/S, TP53 truncation","PTEN truncation, BRAF p.V600E, EGFR amplification",ae047558
+Brain,Atypical Teratoid/Rhabdoid Tumor,SMARCB1 loss,TP53 truncation,65c888f7
+Brain,"Diffuse Midline Glioma, H3 K27-altered","H3-3A p.K28M, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, ATRX truncation",0e549a8c
+Brain,"Glioblastoma, IDH-wildtype","TP53 truncation, EGFR amplification, PTEN truncation","NF1 truncation, RB1 truncation",39527474
+Brain,"Glioblastoma, IDH-wildtype","TERT c.-124C>T, TP53 truncation","PTEN truncation, NF1 truncation, EGFR amplification, RB1 truncation",b3159a1c
+Brain,"Glioblastoma, IDH-wildtype","TP53 truncation, EGFR amplification, PIK3CA p.E542K p.E545K p.H1047R","NF1 truncation, RB1 truncation",b5820171
+Brain,"Glioblastoma, IDH-wildtype","TERT c.-124C>T, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, BRAF p.V600E, EGFR amplification, RB1 truncation",dbe99ce2
+Brain,"Glioblastoma, IDH-wildtype","ATRX truncation, TP53 truncation","PTEN truncation, NF1 truncation, EGFR amplification, RB1 truncation",e37d5685
+Brain,Medulloblastoma,CTNNB1 p.S33A/C/F/Y p.S37A/F/Y,"TP53 truncation, DDX3X p.T275M p.G302V p.R326C p.R351W p.M380I, KMT2D truncation, CREBBP truncation",2b5b6193
+Brain,Medulloblastoma,PTCH1 truncation,"TP53 truncation, DDX3X p.T275M p.G302V p.R326C p.R351W p.M380I, TERT c.-124C>T, KMT2D truncation, CREBBP truncation",feff4985
+Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH2 p.R172K/S, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p.R1111W p.R1124W/Q truncation",4d733166
+Brain,"Oligodendroglioma, IDH-mutant and 1p/19q-codeleted","IDH1 p.R132H/C/G, 1p loss, 19q loss","TP53 truncation, ARID1A truncation, PIK3CA p.E542K p.E545K p.H1047R, NOTCH1 truncation, CIC p.R1111W p.R1124W/Q truncation",64525208
+Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, BRCA2 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss",0f4088ec
+Breast,Breast Invasive Ductal Carcinoma,"ESR1 p.Y537S p.D538G amplification, PIK3CA p.E545K p.H1047R","TP53 truncation, MAP3K1 truncation, ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss",1675cdc0
+Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, CHEK2 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss",339aed0d
+Breast,Breast Invasive Ductal Carcinoma,"ERBB2 amplification p.S310F, TP53 truncation","FGFR1 amplification, MAP3K1 truncation, PTEN truncation, KMT2C truncation, CDKN2A loss, RB1 loss",62f65aea
+Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, BRCA1 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss",7a06017f
+Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, PALB2 truncation, HRD-High","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss",b53d14ba
+Breast,Breast Invasive Ductal Carcinoma,"TP53 truncation, ATM truncation","ERBB2 amplification p.S310F, PTEN truncation, KMT2C truncation, RB1 loss",c1cd95cb
+Breast,Breast Invasive Lobular Carcinoma,"CDH1 truncation, PIK3CA p.E545K p.H1047R","TP53 truncation, RUNX1 truncation, TBX3 truncation, PTEN loss",018692c3
+Esophagus,Squamous Cell Carcinoma,TP53 truncation,"NOTCH1 truncation, KMT2D truncation, PTEN truncation",998fa218
+Esophagus,Squamous Cell Carcinoma,TP53 truncation,"CDKN2A truncation, KMT2D truncation, PTEN truncation",e1579f47
+Esophagus,Squamous Cell Carcinoma,TP53 truncation,"NFE2L2 p.R34G/L p.E79K/Q, KMT2D truncation, PTEN truncation",e15e148b
+Kidney,Renal Cell Carcinoma,VHL truncation loss,TP53 truncation,7765a49d
+Kidney,Wilms Tumor,WT1 loss,"TP53 truncation, CTNNB1 p.T41A p.S45F",9fc792c1
+Lung,Lung Adenocarcinoma,"KRAS p.G12X, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation",162e63b0
+Lung,Lung Adenocarcinoma,"EGFR p.L858R exon 19 deletion exon 20 insertion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation",16d45f55
+Lung,Lung Adenocarcinoma,"EML4-ALK fusion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation",32c94047
+Lung,Lung Adenocarcinoma,"MET exon 14 skipping, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation",5ef4165e
+Lung,Lung Adenocarcinoma,"GOPC-ROS1 fusion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation",651be6f6
+Lung,Lung Adenocarcinoma,"KIF5B-RET fusion, STK11 truncation, TP53 truncation","KEAP1 loss-of-function missense mutation truncation, SETD2 truncation, ARID1A truncation",8db5d48c
+Lung,Small Cell Lung Cancer,"RB1 truncation, TP53 truncation",,4b1655b3
+Lung,Squamous Cell Carcinoma,"NFE2L2 p.R34G p.R34L p.E79K p.E79Q, TP53 truncation","CDKN2A loss, PIK3CA p.E545K p.H1047R amplification, KEAP1 loss-of-function missense mutation truncation",e6e74997
+Ovary,Clear Cell Ovarian Cancer,"ARID1A truncation, PIK3CA p.E545K p.H1047R",TP53 truncation,4a61f991
+Ovary,High-Grade Serous Ovarian Cancer,"TP53 truncation, HRD-High",BRCA1 truncation,7a50414c
+Ovary,High-Grade Serous Ovarian Cancer,"TP53 truncation, HRD-High",BRCA2 truncation,eaaa3f41
+Ovary,Low-Grade Serous Ovarian Cancer,BRAF p.V600E/K,,6432352c
+Ovary,Low-Grade Serous Ovarian Cancer,KRAS p.G12X,,b69cbb5f
+Ovary,Low-Grade Serous Ovarian Cancer,NRAS p.Q61X,,e48d6657
+Pancreas,Intraductal Papillary Mucinous Neoplasm,"KRAS p.G12X, TP53 truncation, GNAS p.R201C/H",,b1e1756e
+Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation","CDKN2A loss, CDKN2B loss, MTAP loss",14d71ed5
+Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, BRCA2 truncation","CDKN2A loss, CDKN2B loss, MTAP loss",2605599d
+Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, ATM truncation","CDKN2A loss, CDKN2B loss, MTAP loss",714cde2c
+Pancreas,Pancreatic Adenocarcinoma,"KRAS p.G12X, TP53 truncation, BRCA1 truncation","CDKN2A loss, CDKN2B loss, MTAP loss",90c26b63
+Peritoneum,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation loss,ed3260a8
+Pleura,Mesothelioma,"BAP1 loss, TP53 truncation",NF2 truncation loss,13656f55
+Prostate,Adenocarcinoma,ATM truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss",0738d0fe
+Prostate,Adenocarcinoma,"AR amplification, TP53 truncation, PTEN truncation","PIK3CA p.E545K p.H1047R, MYC amplification, SPOP p.F133C/L/V, RB1 loss",4d137f9d
+Prostate,Adenocarcinoma,BRCA2 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss",8a675805
+Prostate,Adenocarcinoma,BRCA1 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss",a5e051b0
+Prostate,Adenocarcinoma,CDK12 truncation,"HRD-High, AR amplification, TP53 truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, MYC amplification, SPOP p.F133C/L/V, RB1 loss",ba62b246
+Prostate,Adenocarcinoma,"TMPRSS2-ERG fusion, TP53 truncation, PTEN truncation","AR amplification, PIK3CA p.E545K p.H1047R, MYC amplification, RB1 loss, SPOP p.F133C/L/V",dbd4ec94
+Salivary Gland,Adenoid Cystic Carcinoma,MYB-NFIB fusion,"TP53 truncation, NOTCH1 truncation",3027a51a
+Salivary Gland,Mucoepidermoid Carcinoma,"HRAS p.G12V, PIK3CA p.E542K p.E545K p.H1047R","TP53 truncation, CDKN2A loss, CDKN2B loss",ace469be
+Salivary Gland,Salivary Duct Carcinoma,"NF1 truncation, TP53 truncation",CDKN2A loss,209ce5d4
+Salivary Gland,Salivary Duct Carcinoma,"ERBB2 amplification, CDK12 amplification, TP53 truncation",CDKN2A loss,51909696
+Salivary Gland,Salivary Duct Carcinoma,"HRAS p.Q61X, TP53 truncation","PIK3CA p.E542K p.E545K p.H1047R, CDKN2A loss",f1c5e89e
+Skin,Melanoma,NRAS p.Q61X,"CDKN2A loss, CDKN2B loss, MTAP loss",1ca10564
+Skin,Melanoma,BRAF p.V600E/K,"CDKN2A loss, CDKN2B loss, MTAP loss",1d2b4701
+Skin,Melanoma,KIT p.L576P p.K642E,"CDKN2A loss, CDKN2B loss, MTAP loss",5cdd91d2
+Soft Tissue,Dedifferentiated Liposarcoma,"MDM2 amplification, CDK4 amplification",,e73a48b1
+Soft Tissue,Ewing Sarcoma,EWSR1-FLI1 fusion,"TP53 truncation, CDKN2A loss, STAG2 truncation",dc8175cb
+Soft Tissue,Gastrointestinal Stromal Tumor,KIT p.W557_K558del p.V559G p.L576P,,8fd464e8
+Soft Tissue,Leiomyosarcoma,"TP53 loss, RB1 loss","ATRX truncation, PTEN loss truncation, MAP2K4 amplification",051496d8
+Soft Tissue,Paraganglioma,SDHB loss,"TP53 truncation, ATRX truncation",36c934ab
+Soft Tissue,Rhabdomyosarcoma,PAX3-FOXO1 fusion,"MYCN amplification, CDK4 amplification, 11p15 loss",5dcbb2f4
+Soft Tissue,Rhabdomyosarcoma,PAX7-FOXO1 fusion,"MYCN amplification, CDK4 amplification, 11p15 loss",b0140036
+Soft Tissue,Rhabdomyosarcoma,"NRAS p.Q61X, 11p15 loss",TP53 loss,d17af2f5
+Soft Tissue,Rhabdomyosarcoma,"FGFR4 p.V550E/L/M, 11p15 loss",TP53 loss,dc46eaf6
+Soft Tissue,Synovial Sarcoma,SS18-SSX2 fusion,"CTNNB1 p.S33A/Y/C p.S37A/F/Y p.T41A p.S45F, ATM truncation",d35b83ac
+Stomach,Diffuse Type Stomach Adenocarcinoma,"CDH1 truncation, RHOA p.Y42C/S",CLDN18-ARHGAP26 fusion,b9360de1
+Stomach,Intestinal Type Stomach Adenocarcinoma,"PIK3CA p.E545K p.H1047R, ARID1A truncation, CD274 amplification, ERBB2 amplification",PTEN truncation,1df3e495
+Stomach,Intestinal Type Stomach Adenocarcinoma,"ERBB2 amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification",204a9463
+Stomach,Intestinal Type Stomach Adenocarcinoma,"KRAS amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification",256f633a
+Stomach,Intestinal Type Stomach Adenocarcinoma,"MLH1 truncation, TMB-High, MSI-High","ARID1A truncation, PIK3CA p.E545K p.H1047R, PTEN truncation, KRAS p.G12X, RNF43 truncation, TP53 truncation",559845b2
+Stomach,Intestinal Type Stomach Adenocarcinoma,"PIK3CA amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification",5d1b1ee7
+Stomach,Intestinal Type Stomach Adenocarcinoma,"PIK3CA p.E545K p.H1047R, ARID1A truncation, CD274 amplification, EGFR amplification",PTEN truncation,704a8220
+Stomach,Intestinal Type Stomach Adenocarcinoma,"EGFR amplification, TP53 truncation","CCNE1 amplification, CCND1 amplification",8c98772f
+Thymus,Thymic carcinoma,"TP53 truncation, CDKN2A loss, CDKN2B loss",,b842bd07
+Thyroid,Anaplastic Carcinoma,"BRAF p.V600E, TP53 truncation","CDKN2A loss, CDKN2B loss, PTEN truncation",086470e9
+Thyroid,Follicular Carcinoma,NRAS p.Q61X,TP53 truncation,60814af9
+Thyroid,Follicular Carcinoma,PAX8-PPARG fusion,TP53 truncation,6a149c91
+Thyroid,Papillary Carcinoma,CCDC6-RET fusion,TP53 truncation,1750f40b
+Thyroid,Papillary Carcinoma,BRAF p.V600E,TP53 truncation,2bd93d00
+Uterus,Endometrial Stromal Sarcoma,YWHAE-NUTM2A fusion,"16q loss, CDKN2A loss, TP53 loss, RB1 loss",4fedf730
+Uterus,Endometrial Stromal Sarcoma,JAZF1-SUZ12 fusion,CDKN2A loss,80e56044
+Uterus,Endometrial Stromal Sarcoma,ZC3H7B-BCOR fusion,"16q loss, CDKN2A loss, TP53 loss, RB1 loss",8bf8160f
+Uterus,Uterine Endometrioid Carcinoma,"PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, KRAS p.G12X",TP53 truncation,0f13606d
+Uterus,Uterine Endometrioid Carcinoma,"PTEN truncation, PIK3CA p.E542K p.E545K p.H1047R, ARID1A truncation, CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F",TP53 truncation,45fd3c06
+Uterus,Uterine Endometrioid Carcinoma,"PTEN truncation, PIK3R1 truncation, ARID1A truncation","CTNNB1 p.S33A/C/F/Y p.S37A/F/Y p.T41A p.S45F, KRAS p.G12X, PPP2R1A p.P179L/R p.R183G/P/Q/W, TP53 truncation",c0ed9cde

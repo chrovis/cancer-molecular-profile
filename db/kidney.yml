@@ -21,6 +21,7 @@
 
 - type: Kidney
   subtype: Wilms Tumor
+  age-group: "pediatric"
   required-markers:
     - name: WT1
       types:

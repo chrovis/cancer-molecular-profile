@@ -328,6 +328,7 @@
 
 - type: Brain
   subtype: Diffuse Midline Glioma, H3 K27-altered
+  age-group: "pediatric"
   required-markers:
     - name: H3-3A
       types:
@@ -350,6 +351,7 @@
 
 - type: Brain
   subtype: Atypical Teratoid/Rhabdoid Tumor
+  age-group: "pediatric"
   required-markers:
     - name: SMARCB1
       types:
@@ -362,6 +364,7 @@
 
 - type: Brain
   subtype: Medulloblastoma
+  age-group: "pediatric"
   required-markers:
     - name: CTNNB1
       types:
@@ -391,6 +394,7 @@
 
 - type: Brain
   subtype: Medulloblastoma
+  age-group: "pediatric"
   required-markers:
     - name: PTCH1
       types:
